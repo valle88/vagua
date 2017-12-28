@@ -1,15 +1,27 @@
 /* menu*/
-.menu1 {
-  background: blue;
-  padding: 14px;
-  margin: 1px;
-  display: block;
-  width: 100%;
+.body{
+  background-color:#6c9adf ;
 }
-.menu {
-  background: navy;
-  display: flex;
-}
+
 header{
-  background-image: url("fotos/foto_pagina.jpg");
+  background-image: url(../fotos/foto_pagina.jpg);
+}
+
+header h1{
+  color: #ecf4ef;
+  font-size: 64px;
+  text-align: center;
+}
+
+nav{
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+nav a{
+  background-color: #cf1fe9;
+  color: #b1bebb;
+  font-size: 20px;
+  padding: 20px;
+
 }
