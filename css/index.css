@@ -1,25 +1,29 @@
 /* menu*/
 body{
   background-color:#6c9adf ;
+  margin: 0;
 }
 .pagina{
   width: 1000px;
   margin: auto;
 }
 header{
-  background-image: url(../fotos/foto_pagina.jpg);
+  background-image: url(../fotos/fondo.png);
+
 }
 
 header h1{
-  color: #ecf4ef;
+  color: #e62727;
   font-size: 64px;
   text-align: center;
+  margin: 0;
 }
 
 nav{
   background-color: black;
   padding: 20px;
   text-align: center;
+
 }
 nav a{
   background-color: #cf1fe9;
@@ -27,4 +31,8 @@ nav a{
   font-size: 20px;
   padding: 20px;
 
+}
+div img{
+  width: 500px;
+  height: 500px;
 }
