@@ -1,0 +1,15 @@
+/* menu*/
+.menu1 {
+  background: blue;
+  padding: 14px;
+  margin: 1px;
+  display: block;
+  width: 100%;
+}
+.menu {
+  background: navy;
+  display: flex;
+}
+header{
+  background-image: url("fotos/foto_pagina.jpg");
+}
