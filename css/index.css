@@ -1,8 +1,11 @@
 /* menu*/
-.body{
+body{
   background-color:#6c9adf ;
 }
-
+.pagina{
+  width: 1000px;
+  margin: auto;
+}
 header{
   background-image: url(../fotos/foto_pagina.jpg);
 }
