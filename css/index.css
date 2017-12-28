@@ -1,6 +1,7 @@
 /* menu*/
 body{
   background-color:#6c9adf ;
+  margin: 0;
 }
 .pagina{
   width: 1000px;
@@ -14,6 +15,7 @@ header h1{
   color: #ecf4ef;
   font-size: 64px;
   text-align: center;
+  margin: 0;
 }
 
 nav{
