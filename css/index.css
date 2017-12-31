@@ -35,9 +35,9 @@ nav a{
 }
 
 div article{
-    background: grey;
- height: 100px;
- width: 100px;
+    background: #0002e3;
+ height: 500px;
+ width: 500px;
 }
 div img{
   width: 500px;
