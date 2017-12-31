@@ -9,6 +9,8 @@ body{
 }
 header{
   background-image: url(../fotos/fondo.png);
+  width: 200px;
+  height: 200px;
 
 }
 
@@ -23,6 +25,7 @@ nav{
   background-color: black;
   padding: 20px;
   text-align: center;
+
 
 }
 nav a{
