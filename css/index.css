@@ -47,9 +47,14 @@ header nav a:hover{
   color: white;
   font-size: 20px;
   text-align: center;
+  display: flex;
 }
 div img{
   width: 618px;
   height: 418px;
   display: inline-block;
+}
+
+#servicios {
+  display: flex;
 }

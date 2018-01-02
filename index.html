@@ -3,6 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <meta charset="utf-8">
   <title>Vagua</title>
 </head>
@@ -13,11 +14,12 @@
     <h1>VAGUA</h1>
     <nav>
       <a href="index.html">Inicio </a>
-      <a href="paginas/servicios.html">Servicios</a>
-      <a href="paginas/caracteristicas.html">Caracteristicas</a>
-      <a href="pagina/contacto.html" name="contacto">Contacto</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#caracteristicas">Caracteristicas</a>
+      <a href="#contacto" name="contacto">Contacto</a>
     </nav>
   </header>
+
   <div class="pagina">
     <div id="inicio">
       <article>
@@ -31,7 +33,52 @@
         </div>
       </article>
     </div>
+
+    <div id="caracteristicas">
+      <article>
+        <ul>
+          <li>dimension 8 pulgadas.</li>
+          <li>120gb.</li>
+
+        </ul>
+        <div>
+          <!--imagenes con js para cambiar el color de las fotos-->
+          <img src="fotos/movil-slider.jpg" alt="Foto Movil">
+          <img src="fotos/movil-slider.jpg" alt="Foto Movil">
+          <img src="fotos/movil-slider.jpg" alt="Foto Movil">
+
+          <i class="fa fa-circle colorVerde" aria-hidden="true"></i>
+          <i class="fa fa-circle" aria-hidden="true"></i>
+          <i class="fa fa-circle" aria-hidden="true"></i>
+        </div>
+      </article>
+    </div>
+
+    <div id="servicios">
+      <div>
+        <i class="fa fa-wrench" aria-hidden="true"></i>
+        <p>Reparación</p>
+        <p>Reparamos todo tipo de movil y los liberamos.</p>
+      </div>
+
+      <div>
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        <p>Compra Online</p>
+        <p>No necesitas ir a la tienda compra desde aqui.</p>
+      </div>
+      <div>
+        <i class="fa fa-comments" aria-hidden="true"></i>
+        <p>Post Venta</p>
+        <p>Te atenderemos a todas tus dudas con mucho gusto, no dudes de contar con nosotros.</p>
+      </div>
+
+    </div>
+
+    <div id="contacto">
+
+    </div>
   </div>
+
   <script type="text/javascript" src="js/seguridad.js"></script>
 </body>
 
