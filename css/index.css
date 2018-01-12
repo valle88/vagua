@@ -57,6 +57,16 @@ div img{
   display: inline-block;
 }
 
+#caracteristicas {
+  background: rgb(234, 121, 244);
+  font-size: 14px;
+  font-family: 'Josefin Slab',sans-serif;
+}
+
+
+
+
+
 #servicios {
   display: flex;
 }
