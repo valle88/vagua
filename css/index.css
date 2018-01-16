@@ -52,14 +52,14 @@ header nav a:hover{
   display: flex;
 }
 div img{
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
 
 }
 
 .slider {
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
 
 }
 
@@ -67,16 +67,23 @@ div img{
 #caracteristicas {
   background: rgb(234, 121, 244);
   font-size: 14px;
-  font-family: 'Josefin Slab',sans-serif;
+  font-family: 'Josefin Slab',sans-serif, center;
+
 }
 
-.fotos {
-  width: 600px;
-  height: 600px;
+#caracteristicas article{
+  float:right;
+
 }
 
 
+#caracteristicas .fotos {
+  width: 500px;
+  height: 500px;
 
+
+
+}
 
 #servicios {
   display: flex;
