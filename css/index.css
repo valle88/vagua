@@ -10,6 +10,7 @@ header{
 
 header h1{
   color: #e62727;
+  font-family: 'Shadows Into Light',cursive;
   font-size: 64px;
   text-align: center;
   margin: 0;
@@ -43,6 +44,7 @@ header nav a:hover{
 }
 
 #inicio article{
+  font-family: 'Josefin Slab', serif;
   background: #0002e3;
   color: white;
   font-size: 20px;
@@ -50,11 +52,45 @@ header nav a:hover{
   display: flex;
 }
 div img{
-  width: 618px;
-  height: 418px;
-  display: inline-block;
+  width: 600px;
+  height: 600px;
+
 }
+
+.slider {
+  width: 600px;
+  height: 600px;
+
+}
+
+
+#caracteristicas {
+  background: rgb(234, 121, 244);
+  font-size: 14px;
+  font-family: 'Josefin Slab',sans-serif;
+}
+
+.fotos {
+  width: 600px;
+  height: 600px;
+}
+
+
+
 
 #servicios {
   display: flex;
+}
+
+
+.dorado{
+  color:#e4a821;
+}
+
+.negro{
+  color: #010101;
+}
+
+.rojo{
+  color: #f70505;
 }

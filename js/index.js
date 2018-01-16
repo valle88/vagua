@@ -11,8 +11,21 @@ function validacion(nombre, contrasena) {
 }
 
 // carrusel//
+
+
 $(document). ready(function(){
-$('your-class'). slick({
-  setting-name: setting-value
-})
-})
+  $('.slider').slick();
+  $('.fotos').slick({
+    rt1:true
+  });
+});
+//$('.single-item').slick();
+
+/*$('.slider').on('swiper',function(event,slick,direction){
+  console.log(direction)
+});
+$('.slider').on('edge',function (event,slick,direction){
+    console.log('edge was hit')
+});
+
+});*/
