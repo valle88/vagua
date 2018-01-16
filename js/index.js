@@ -9,3 +9,10 @@ function validacion(nombre, contrasena) {
      estoylogueado = false;
   }
 }
+
+// carrusel//
+$(document). ready(function(){
+$('your-class'). slick({
+  setting-name: setting-value
+})
+})
