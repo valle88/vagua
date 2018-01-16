@@ -11,13 +11,49 @@ function validacion(nombre, contrasena) {
 }
 
 // carrusel//
-var cambiarcolor;
+
+function cambiarcolor(color){
+  alert('cambio de color ' + color );
+
+  if (color==='dorado') {
+    $('#dorado-img').show();
+    $('#negro-img').hide();
+    $('#rojo-img').hide();
+
+
+  }
+  if (color==='negro') {
+      $('#negro-img').show();
+      $('#dorado-img').hide();
+      $('#rojo-img').hide();
+    }
+  if (color==='rojo') {
+      $('#rojo-img').show();
+      $('#negro-img').hide();
+      $('#dorado-img').hide();
+        }
+      }
+
+
+
+
+
+
+
 
 $(document). ready(function(){
   $('.slider').slick();
+  $('#dorado-img').hide();
+  $('#negro-img').hide();
+  $('#rojo-img').hide();
+
+  $("#dorado").click(function() {
+    cambiarcolor('dorado');
+  });
+  $("#negro").click(function() {
+    cambiarcolor('negro');
+  });
+  $("#rojo").click(function() {
+    cambiarcolor('rojo');
+  });
 });
-
-
-//$( "#dorado" ).click(function() {
-// $( 'cambiarcolor'(#dorado);
-//});
