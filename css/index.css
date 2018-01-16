@@ -1,111 +1,114 @@
 /*estructura de la pagina completa*/
-body{
-  background-color:#6c9adf ;
-  margin: 0;
+body {
+    background-color: #6c9adf;
+    margin: 0;
 }
+
 /*parte superior de la pagina*/
-header{
-  background-image: url(../fotos/fondo-blanco.png);
+header {
+    background-image: url(../fotos/fondo-blanco.png);
 }
 
-header h1{
-  color: #e62727;
-  font-family: 'Shadows Into Light',cursive;
-  font-size: 64px;
-  text-align: center;
-  margin: 0;
+header h1 {
+    color: #e62727;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 64px;
+    text-align: center;
+    margin: 0;
 }
 
-header nav{
-  padding: 10px;
-  text-align:center ;
-  background-color: #0d117c;
+header nav {
+    padding: 10px;
+    text-align: center;
+    background-color: #0d117c;
 
 }
-header nav a{
-  background-color: #0d117c;
-  color: #b1bebb;
-  font-size: 20px;
-  padding: 10px;
-  text-decoration:none;
+
+header nav a {
+    background-color: #0d117c;
+    color: #b1bebb;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
 }
 
 /*cuando se mueva el raton encima de las opciones del menu*/
-header nav a:hover{
-  background-color: #30c8e9;
-  color: #030a17;
+header nav a:hover {
+    background-color: #30c8e9;
+    color: #030a17;
 }
 
 /*estructura de pagina despues del hider*/
-.pagina{
-  width: 1000px;
-  margin: auto;
-  background: white;
+.pagina {
+    width: 1000px;
+    margin: auto;
+    background: white;
 }
 
-#inicio article{
-  font-family: 'Josefin Slab', fantasy,inherit;
-  background: #0002e3;
-  color: white;
-  font-size: 20px;
-  text-align: center,justify;
-  display: flex;
+#inicio article {
+    font-family: 'Josefin Slab', fantasy, inherit;
+    background: #0002e3;
+    color: white;
+    font-size: 20px;
+    text-align: center, justify;
+    display: flex;
 }
-div img{
-  width: 500px;
-  height: 500px;
+
+div img {
+    width: 500px;
+    height: 500px;
 
 }
 
 .slider {
-  width: 500px;
-  height: 500px;
+    width: 500px;
+    height: 500px;
 
 }
-
 
 #caracteristicas {
-  background: rgb(234, 121, 244);
+    background: rgb(234, 121, 244);
 
 }
 
-#caracteristicas article{
-  font-size: 14px;
-  font-family: 'Josefin Slab',sans-serif, center;
-  text-align: inherit,center,justify;
-  float:right;
+#caracteristicas article {
+    font-size: 13px;
+    font-family: 'Josefin Slab', left;
+    text-align: inherit, center, justify;
+    float: right;
+    width: 500px;
+    height: 500px;
 
 }
-
 
 #caracteristicas .fotos {
-  width: 500px;
-  height: 500px;
-
-
+    width: 500px;
+    height: 500px;
 
 }
 
-
-
-
-.dorado{
-  color:#e4a821;
+.dorado {
+    color: #e4a821;
 }
 
-.negro{
-  color: #010101;
+.negro {
+    color: #010101;
 }
 
-.rojo{
-  color: #f70505;
+.rojo {
+    color: #f70505;
 }
 
 .servicios {
-  display: inline-flex;
+    display: inline-flex;
 }
+
 .utilidad {
-  padding: 8px;
-  margin: 2px;
-  display: block;
+    padding: 8px;
+    margin: 2px;
+    display: block;
+}
+
+.selector-color {
+    height: 40px;
 }
