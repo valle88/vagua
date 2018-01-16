@@ -13,7 +13,7 @@ function validacion(nombre, contrasena) {
 // carrusel//
 
 function cambiarcolor(color){
-  alert('cambio de color ' + color );
+  
 
   if (color==='dorado') {
     $('#dorado-img').show();
@@ -30,7 +30,7 @@ function cambiarcolor(color){
   if (color==='rojo') {
       $('#rojo-img').show();
       $('#negro-img').hide();
-      $('#dorado-img').hide();
+
         }
       }
 
