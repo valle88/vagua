@@ -44,11 +44,11 @@ header nav a:hover{
 }
 
 #inicio article{
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Josefin Slab', fantasy,inherit;
   background: #0002e3;
   color: white;
   font-size: 20px;
-  text-align: center;
+  text-align: center,justify;
   display: flex;
 }
 div img{
@@ -66,12 +66,13 @@ div img{
 
 #caracteristicas {
   background: rgb(234, 121, 244);
-  font-size: 14px;
-  font-family: 'Josefin Slab',sans-serif, center;
 
 }
 
 #caracteristicas article{
+  font-size: 14px;
+  font-family: 'Josefin Slab',sans-serif, center;
+  text-align: inherit,center,justify;
   float:right;
 
 }
@@ -85,9 +86,7 @@ div img{
 
 }
 
-#servicios {
-  display: flex;
-}
+
 
 
 .dorado{
@@ -100,4 +99,13 @@ div img{
 
 .rojo{
   color: #f70505;
+}
+
+.servicios {
+  display: inline-flex;
+}
+.utilidad {
+  padding: 8px;
+  margin: 2px;
+  display: block;
 }

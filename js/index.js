@@ -11,11 +11,13 @@ function validacion(nombre, contrasena) {
 }
 
 // carrusel//
-
+var cambiarcolor;
 
 $(document). ready(function(){
   $('.slider').slick();
-  $('.fotos').slick({
-    rt1:true
-  });
 });
+
+
+//$( "#dorado" ).click(function() {
+// $( 'cambiarcolor'(#dorado);
+//});
