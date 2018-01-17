@@ -67,7 +67,6 @@ div img {
 }
 
 #caracteristicas {
-    background: rgb(234, 121, 244);
 
 }
 
@@ -78,12 +77,13 @@ div img {
     float: right;
     width: 500px;
     height: 500px;
+    background-color:#68e2b2;
 
 }
 
-#caracteristicas .fotos {
-    width: 500px;
-    height: 500px;
+#caracteristicas fotos {
+    width: 300px;
+    height: 300px;
 
 }
 
@@ -99,15 +99,16 @@ div img {
     color: #f70505;
 }
 
-.servicios {
+#servicios {
     display: inline-flex;
+    background: #9b1ae0;
 }
 
-/*.utilidad {
+.utilidad {
     padding: 8px;
     margin: 2px;
     display: block;
-}*/
+}
 
 .selector-color {
     height: 40px;
