@@ -45,11 +45,21 @@ header nav a:hover {
     background: white;
 }
 
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu .active a {
+  background-color:red;
+}
+
 #inicio article {
-    font-family: 'Josefin Slab', fantasy, inherit;
-    background: #0002e3;
-    color: white;
-    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    background: #6144b1;
+    color:#fffcfb;
+    font-size: 23px;
     text-align: center, justify;
     display: flex;
 }
@@ -77,7 +87,7 @@ div img {
     float: right;
     width: 500px;
     height: 500px;
-    background-color:#68e2b2;
+    background-color:#665dcd;
 
 }
 
@@ -101,7 +111,7 @@ div img {
 
 #servicios {
     display: inline-flex;
-    background: #9b1ae0;
+    background: #1fa9bb;
 }
 
 .utilidad {

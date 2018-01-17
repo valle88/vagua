@@ -48,6 +48,8 @@ $(document).ready(function () {
         cambiarcolor(this);
     });
 
+
+
     // $("#dorado").click(function () {
     //     cambiarcolor('dorado');
     // });
@@ -58,3 +60,9 @@ $(document).ready(function () {
     //     cambiarcolor('rojo');
     // });
 });
+
+var options = {
+  activeClass: 'active'
+}
+var elm = document.querySelector('.menu');
+var ms = new MenuSpy(elm, options);
