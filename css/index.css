@@ -20,13 +20,13 @@ header h1 {
 header nav {
     padding: 10px;
     text-align: center;
-    background-color: #0d117c;
+    background-color: #0d118c;
 
 }
 
 header nav a {
-    background-color: #0d117c;
-    color: #b1bebb;
+    background-color: #0d118c;
+    color: #7d868a;
     font-size: 20px;
     padding: 10px;
     text-decoration: none;
@@ -34,8 +34,8 @@ header nav a {
 
 /*cuando se mueva el raton encima de las opciones del menu*/
 header nav a:hover {
-    background-color: #30c8e9;
-    color: #030a17;
+    background-color: #4a30e6;
+    color: #00040a;
 }
 
 /*estructura de pagina despues del hider*/
