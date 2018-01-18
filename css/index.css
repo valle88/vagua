@@ -86,6 +86,7 @@ header nav a:hover {
 }
 
 .slider {
+  align-items:center;
   width: 500px;
   height: 500px;
 
@@ -113,6 +114,7 @@ header nav a:hover {
 #servicios {
     display: inline-flex;
     background: #1fa9bb;
+    align-items:center;
 }
 
 .utilidad {
@@ -121,6 +123,9 @@ header nav a:hover {
     margin: 2px;
     display: block;
     padding-right: 5px;
+}
+.utilidas p {
+  text-align: center;
 }
 
 .logo {
