@@ -71,6 +71,11 @@ header nav a:hover {
 .pagina h2 {
   margin:0;
 }
+.pagina h3 {
+  font-family: 'Comfortaa' fantasy;
+  text-align: center;
+  margin:0;
+}
 
 .pagina .texto {
   padding:75px;
@@ -83,34 +88,15 @@ header nav a:hover {
 .slider {
   width: 500px;
   height: 500px;
-}
 
-/* PTE: Quitar este código y poner imágenes de 500x500 en el HTML */
-div img {
-  width: 500px;
-  height: 500px;
 }
 
 /* Sección de características */
 
-#caracteristicas {
-    font-size: 13px;
-    font-family: 'Josefin Slab', sans-serif;
-    text-align: center;
-    width: 500px;
-    height: 500px;
-    background-color:#665dcd;
-
-}
-
-#caracteristicas fotos {
-    width: 300px;
-    height: 300px;
-
-}
+#caracteristicas fotos {}
 
 .dorado {
-    color: #e4a821;
+    color: #edc873;
 }
 
 .negro {
@@ -118,7 +104,10 @@ div img {
 }
 
 .gris {
-    color: #7b7b7d;
+    color: #727277;
+}
+.selector-color {
+    height: 40px;
 }
 
 #servicios {
@@ -127,14 +116,19 @@ div img {
 }
 
 .utilidad {
+    font-family: 'Comfortaa';
     padding: 8px;
     margin: 2px;
     display: block;
+    padding-right: 5px;
 }
 
-.selector-color {
-    height: 40px;
+.logo {
+  display: flex;
+
+
 }
+
 
 footer {
   background:#222;
