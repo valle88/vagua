@@ -9,13 +9,22 @@ header {
     background-image: url(../fotos/fondo-blanco.png);
 }
 
+.menu {
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:5;
+}
+
 header h1 {
     color: #e62727;
     font-family: 'Shadows Into Light', cursive;
     font-size: 64px;
     text-align: center;
     margin: 0;
+    margin-top:70px;
 }
+
 /*menu*/
 header nav {
     padding: 10px;
@@ -70,6 +79,7 @@ header nav a:hover {
 /* Todos los h2 de la página */
 .pagina h2 {
   margin:0;
+  margin-bottom:20px;
 }
 .pagina h3 {
   font-family: 'Comfortaa', fantasy;
@@ -118,14 +128,17 @@ header nav a:hover {
 }
 
 .utilidad {
-    font-family: 'Comfortaa',sans-serif;
-    padding: 8px;
-    margin: 2px;
+    font-family: 'Comfortaa',cursive;
+    margin: 10px;
     display: block;
-    padding-right: 5px;
+    padding-right: 48px;
+    align-items:center;
+    text-align: center;
 }
 .utilidas p {
   text-align: center;
+  align-items:center;
+
 }
 
 .logo {
