@@ -16,35 +16,24 @@ header h1 {
     text-align: center;
     margin: 0;
 }
-
+/*menu*/
 header nav {
     padding: 10px;
     text-align: center;
     background-color: #0d118c;
-
 }
 
 header nav a {
     background-color: #0d118c;
-    color: #7d868a;
+    color: #c2ccd0;
     font-size: 20px;
     padding: 10px;
     text-decoration: none;
+    font-family: 'Josefin Slab';
 }
-
-/*cuando se mueva el raton encima de las opciones del menu*/
-header nav a:hover {
-    background-color: #4a30e6;
-    color: #00040a;
+header nav a i {
+  padding-right: 5px;
 }
-
-/*estructura de pagina despues del hider*/
-.pagina {
-    width: 1000px;
-    margin: auto;
-    background: white;
-}
-
 .menu ul {
     list-style-type: none;
     display: flex;
@@ -54,37 +43,60 @@ header nav a:hover {
 .menu .active a {
   background-color:red;
 }
-
-#inicio article {
-    font-family: 'Comfortaa', cursive;
-    background: #6144b1;
-    color:#fffcfb;
-    font-size: 23px;
-    text-align: center, justify;
-    display: flex;
+/*cuando se mueva el raton encima de las opciones del menu*/
+header nav a:hover {
+    background-color: #4a30e6;
+    color: #ffffff;
 }
 
-div img {
-    width: 500px;
-    height: 500px;
+/*estructura de pagina despues del hider*/
+.pagina {
+    width: 1000px;
+    margin: auto;
+    background: white;
+}
 
+#inicio, #caracteristicas, #procesador, #rambat, #camara, #otros {
+  display: flex;
+  align-items:center;
+  /* justify-content:center; */
+  font-family: 'Comfortaa', cursive;
+  background: #6144b1;
+  color:#fffcfb;
+  font-size: 23px;
+  text-align: center;
+}
+
+/* Todos los h2 de la página */
+.pagina h2 {
+  margin:0;
+}
+
+.pagina .texto {
+  padding:75px;
+}
+
+.pagina ul {
+  list-style-type:none;
 }
 
 .slider {
-    width: 500px;
-    height: 500px;
-
+  width: 500px;
+  height: 500px;
 }
+
+/* PTE: Quitar este código y poner imágenes de 500x500 en el HTML */
+div img {
+  width: 500px;
+  height: 500px;
+}
+
+/* Sección de características */
 
 #caracteristicas {
-
-}
-
-#caracteristicas article {
     font-size: 13px;
-    font-family: 'Josefin Slab', left;
-    text-align: inherit, center, justify;
-    float: right;
+    font-family: 'Josefin Slab', sans-serif;
+    text-align: center;
     width: 500px;
     height: 500px;
     background-color:#665dcd;
@@ -122,4 +134,16 @@ div img {
 
 .selector-color {
     height: 40px;
+}
+
+footer {
+  background:#222;
+  padding:32px;
+  text-align:center;
+}
+
+footer a {
+  color:#CCC;
+  font-size:22px;
+  padding:10px;
 }

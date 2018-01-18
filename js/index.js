@@ -39,7 +39,11 @@ function cambiarcolor(elementoSelecionado) {
 
 
 $(document).ready(function () {
-    $('.slider').slick();
+    $('.slider').slick({
+      dots:true,
+      arrows:false,
+      autoplay:true
+    });
     // $('#dorado-img').hide();
     $('#negro-img').hide();
     $('#rojo-img').hide();
