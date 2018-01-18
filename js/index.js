@@ -46,7 +46,7 @@ $(document).ready(function () {
     });
     // $('#dorado-img').hide();
     $('#negro-img').hide();
-    $('#rojo-img').hide();
+    $('#gris-img').hide();
 
     $('.selector-color i').click(function () {
         cambiarcolor(this);
