@@ -124,7 +124,7 @@ header nav a:hover {
 #servicios {
     display: inline-flex;
     background: #1fa9bb;
-    align-items:center;
+    /*align-items:center;*/
 }
 
 .utilidad {
