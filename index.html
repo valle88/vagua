@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <title>Vagua</title>
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
@@ -10,7 +11,6 @@
   <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
-  <title>Vagua</title>
 </head>
 <!--cabecera-->
 
@@ -21,12 +21,19 @@
         <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Inicio </a></li>
         <li><a href="#caracteristicas"><i class="fa fa-list-alt" aria-hidden="true"></i>Caracteristicas</a></li>
         <li><a href="#servicios"><i class="fa fa-handshake-o" aria-hidden="true"></i>Servicios</a></li>
-        </li>
         <li><a href="#contacto" name="contacto"><i class="fa fa-address-card-o" aria-hidden="true"></i>Contacto</a></li>
         <li><a href="#marcas"><i class="fa fa-gift" aria-hidden="true"></i>Otras Marcas</a></li>
       </ul>
+      <!--registro-->
     </nav>
-    
+
+      <form class="registro" action="index.html" method="post">
+        <label> Usuario:<input type="text" name="usuario" placeholder="introduce tu usuario" ></label>
+        <label> contraseña: <input type="password" name="contraseña" ></label>
+
+      </form>
+
+    <h1>Vagua</h1>
   </header>
 
   <div class="pagina">
@@ -65,8 +72,8 @@
       </div>
 
       <div class="texto">
+        <h2>PANTALLA</h2>
         <ul>
-          <h2>PANTALLA</h2>
           <li>6 pulgadas</li>
           <li>Aspecto 18:9</li>
           <li>Resolucion FullHD+ (2.160x 1.090)</li>
@@ -80,8 +87,8 @@
     <div id="procesador">
 
       <div class="texto">
+        <h2>PROCESADOR</h2>
         <ul>
-          <h2>PROCESADOR</h2>
           <li>Kirin 970 de ocho núcleos</li>
           <li>GPU Mali G72 MP12</li>
         </ul>
@@ -101,16 +108,16 @@
       </div>
 
       <div class="texto">
-        <ul>
           <h2>RAM</h2>
-          <li>6GB/12GB</li>
-        </ul>
         <ul>
-          <h2>ALMACENAMIENTO</h2>
+        <li>6GB/12GB</li>
+        </ul>
+        <h2>ALMACENAMIENTO</h2>
+        <ul>
           <li>64GB/128GB mas microSD hasta 256GB</li>
         </ul>
+        <h2>BATERIA</h2>
         <ul>
-          <h2>BATERIA</h2>
           <li>3.750mAh</li>
           <li>Carga rápido SuperCharge</li>
         </ul>
@@ -122,12 +129,12 @@
     <div id="camara">
 
       <div class="texto">
+        <h2>CAMARA PRINCIPAL</h2>
         <ul>
-          <h2>CAMARA PRINCIPAL</h2>
-          <li>16 + 20 megapíxeles (f/1.8, f/2.0)</li>
+        <li>16 + 20 megapíxeles (f/1.8, f/2.0)</li>
         </ul>
+        <h2>CAMARA FRONTAL</h2>
         <ul>
-          <h2>CAMARA FRONTAL</h2>
           <li>13 megapixeles f/2.0)</li>
         </ul>
 
@@ -147,16 +154,16 @@
       </div>
 
       <div class="texto">
-        <ul>
-          <h2>SISTEMA OPERATIVO</h2>
+        <h2>SISTEMA OPERATIVO</h2>
+      <ul>
           <li>Android 8.0 bajo EMUI 8.0</li>
         </ul>
+        <h2>DIMENSIONES</h2>
         <ul>
-          <h2>DIMENSIONES</h2>
           <li>4,95 milímetros de grosor</li>
         </ul>
+        <h2>Otros</h2>
         <ul>
-          <h2>Otros</h2>
           <li>Lector de huellas dactilares frontal</li>
         </ul>
       </div>
@@ -167,18 +174,18 @@
 
       <div class="utilidad reparacion">
         <i class="fa fa-wrench fa-2x Reparacion" aria-hidden="true"></i>
-        <p><h2>Reparacion</h2></p>
+        <h2>Reparacion</h2>
         <p>Reparamos todo tipo de movil y los liberamos.</p>
       </div>
 
       <div class="utilidad comprar">
         <i class="fa fa-shopping-cart fa-2x compras" aria-hidden="true"></i>
-        <p><h2>Compras Online</h2></p>
+        <h2>Compras Online</h2>
         <p>No necesitas ir a la tienda compra desde aqui.</p>
       </div>
       <div class="utilidad ventas">
         <i class="fa fa-comments fa-2x ventas" aria-hidden="true"></i>
-        <p><h2>Pos Ventas</h2></p>
+        <h2>Pos Ventas</h2>
         <p>Te atenderemos a todas tus dudas con mucho gusto, no dudes de contar con nosotros.</p>
       </div>
     </div>
@@ -186,7 +193,7 @@
     <!--marcas-->
     <div id="marcas">
 
-      <p><h3>Tambien trabajamos con otras marcas</h3></p>
+      <h3>Tambien trabajamos con otras marcas</h3>
       <div class="logo">
         <div class="icono 1">
           <img src="fotos/Logo-Samsung.png" alt="Samsung">
@@ -197,7 +204,7 @@
         <div class="icono 3">
           <img src="fotos/huawei-logo.png" alt="huawei">
         </div>
-        <div clas="icono 4">
+        <div class="icono 4">
           <img src="fotos/Logo-apple.png" alt="apple">
         </div>
         <div class="icono 5">

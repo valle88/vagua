@@ -7,11 +7,12 @@ body {
 /*parte superior de la pagina*/
 header {
     background-image: url(../fotos/fondo-blanco.png);
+
 }
 
 .menu {
   position:fixed;
-  top:0;
+  top: -10;
   width:100%;
   z-index:5;
 }
@@ -52,6 +53,14 @@ header nav a i {
 .menu .active a {
   background-color:red;
 }
+
+.registro {
+  display: flex;
+  color: #c2ccd0;
+  font-size: 15px;
+  font-family: 'Josefin Slab';
+
+}
 /*cuando se mueva el raton encima de las opciones del menu*/
 header nav a:hover {
     background-color: #4a30e6;
@@ -63,6 +72,7 @@ header nav a:hover {
     width: 1000px;
     margin: auto;
     background: white;
+    /*position: relative;*/
 }
 
 #inicio, #caracteristicas, #procesador, #rambat, #camara, #otros {
