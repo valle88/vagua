@@ -161,6 +161,10 @@ header nav a:hover {
   margin: 6px;
 }
 
+#contacto{
+display: inline;
+}
+
 footer {
   background:#222;
   padding:32px;
