@@ -54,13 +54,13 @@ header nav a i {
   background-color:red;
 }
 
-.registro {
+/*.registro {
   display: flex;
   color: #c2ccd0;
   font-size: 15px;
   font-family: 'Josefin Slab';
 
-}
+}*/
 /*cuando se mueva el raton encima de las opciones del menu*/
 header nav a:hover {
     background-color: #4a30e6;
