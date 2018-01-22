@@ -7,12 +7,11 @@ body {
 /*parte superior de la pagina*/
 header {
     background-image: url(../fotos/fondo-blanco.png);
-
 }
 
 .menu {
   position:fixed;
-  top: -10;
+  top: 0;
   width:100%;
   z-index:5;
 }
@@ -24,6 +23,7 @@ header h1 {
     text-align: center;
     margin: 0;
     margin-top:70px;
+    text-transform:uppercase;
 }
 
 /*menu*/
@@ -55,8 +55,6 @@ header nav a i {
 }
 
 .registro {
-
-  color: #c2ccd0;
   font-size: 15px;
   font-family: 'Josefin Slab';
 
@@ -134,26 +132,33 @@ header nav a:hover {
 }
 
 #servicios {
-    display: inline-flex;
+    display: flex;
     background: #1fa9bb;
     /*align-items:center;*/
 }
 
 .utilidad {
     font-family: 'Comfortaa',cursive;
-    margin: 10px;
     display: block;
-    padding-right: 48px;
     align-items:center;
     text-align: center;
+    margin: 32px;
+    text-align: center;
+    width: 100%;
 }
-.utilidas p {
+.utilidad p {
   text-align: center;
   align-items:center;
 
 }
 
+.marcas{
+  align-items: center;
+  display: flex;
+  margin: 32px;
+}
 .logo {
+
   display: flex;
   align-items:center;
   justify-content: center;
@@ -165,12 +170,11 @@ header nav a:hover {
 #contacto{
   text-align: justify;
   background-color:#15ab71;
-  margin-top: 20px;
+  margin-top: 10px;
 
 }
 .formulario{
-  height: 150px;
-
+  
   align-items: center;
   justify-content: center;
   padding:20px;
@@ -191,4 +195,9 @@ footer a {
   color:#CCC;
   font-size:22px;
   padding:10px;
+}
+
+
+.texto ul {
+    padding-left: 0;
 }
