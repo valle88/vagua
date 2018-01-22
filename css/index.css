@@ -54,8 +54,8 @@ header nav a i {
   background-color:red;
 }
 
-/*.registro {
-  display: flex;
+.registro {
+
   color: #c2ccd0;
   font-size: 15px;
   font-family: 'Josefin Slab';
@@ -94,7 +94,8 @@ header nav a:hover {
 .pagina h3 {
   font-family: 'Comfortaa', fantasy;
   text-align: center;
-  margin:0;
+  margin-bottom: 40px;
+
 }
 
 .pagina .texto {
@@ -161,7 +162,10 @@ header nav a:hover {
   margin: 6px;
 }
 #contacto{
+  text-align: justify;
   background-color:#15ab71;
+  margin-top: 20px;
+
 }
 .formulario{
 

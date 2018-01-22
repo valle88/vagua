@@ -21,15 +21,16 @@
         <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Inicio </a></li>
         <li><a href="#caracteristicas"><i class="fa fa-list-alt" aria-hidden="true"></i>Caracteristicas</a></li>
         <li><a href="#servicios"><i class="fa fa-handshake-o" aria-hidden="true"></i>Servicios</a></li>
-        <li><a href="#contacto" name="contacto"><i class="fa fa-address-card-o" aria-hidden="true"></i>Contacto</a></li>
         <li><a href="#marcas"><i class="fa fa-gift" aria-hidden="true"></i>Otras Marcas</a></li>
+        <li><a href="#contacto" name="contacto"><i class="fa fa-address-card-o" aria-hidden="true"></i>Contacto</a></li>
+
       </ul>
       <!--registro-->
     </nav>
 
       <form class="registro" action="www.vaagua.es" method="post">
-        <label> Usuario:<input type="text" name="usuario" placeholder="introduce tu usuario" ></label>
-        <label> contraseña: <input type="password" name="contraseña" ></label>
+        <label> Usuario:<input type="text" name="usuario" placeholder="introduce tu usuario" required ></label>
+        <label> contraseña: <input type="password" name="contraseña" required ></label>
       </form>
 
     <h1>Vagua</h1>
@@ -217,20 +218,21 @@
       <div class="formulario">
       <form name="contacto">
         <div>Nombre: <input type="text" name="nombre" value="" placeholder="Tu nombre">
-        Primer Apellido: <input type="text" name="apellido" value="" placeholder="1º apellido"></div>
-        <div>Segundo Apellido: <input type="text" name="apellido" value="">
-        Fecha Nacimiento: <input type="date" name="fecha" value=""></div>
-        <div>Direccíon: <input type="text" name="direccion" value="">
-        Codigo Postal: <input type="tex" name=" postal" value=""></div>
-        <div>Localidad:<input type="text" name="Localidad" value="">
-        Poblacion: <input type="text" name="poblacion" value=""></div>
+        Primer Apellido: <input type="text" name="apellido" value="" placeholder="1º Apellido"></div>
+        <div>Segundo Apellido: <input type="text" name="apellido" value="" placeholder="2º Apellido">
+        Fecha Nacimiento: <input type="date" name="fecha" value="" ></div>
+        <div>Direccíon: <input type="text" name="direccion" value="" placeholder="Calle, numero, porton">
+        Codigo Postal: <input type="text" name=" postal" value="" placeholder="Ej: 38008" ></div>
+        <div>Localidad:<input type="text" name="Localidad" value="" placeholder="Ej: Santa Cruz de tenerife">
+          Poblacion: <input type="text" name="poblacion" value="" placeholder="Ej: Santa Cruz de tenerife"></div>
         <div>Sexo: <input type="radio" name="sexo" value="M">Mujer
         <input type="radio" name="sexo" value="H">Hombre</div>
-        <div>Telefono Movil: <input type="tel" name="movil" value="">
-        Email: <input type="email" name="email" value=""></div>
-        <div>Usuario: <input type="text" name="usuario" value="">
-        Contraseña: <input type="password" name="contraseña" value="">
-        Confirmar Contraseña: <input type="password" name="contaseña" value=""></div>
+        <div>Telefono Movil: <input type="tel" name="movil" value="" placeholder=" xxx-xxx-xxx">
+        Email: <input type="email" name="email" value="" placeholder="usuario@email.com"></div>
+        <div>Usuario: <input type="text" name="usuario" value="" required>
+        Contraseña: <input type="password" name="contraseña" value="" required>
+        Confirmar Contraseña: <input type="password" name="contaseña" value=""required></div>
+        <div>Enviar <input type="submit"></div>
       </form>
     </div>
   </div>
