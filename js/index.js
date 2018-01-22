@@ -38,7 +38,7 @@ function cambiarcolor(elementoSelecionado) {
 }
 
 
-$(document).ready(function () {
+/*$(document).ready(function () {*/
     /*$('.slider').slick({
       dots:true,
       arrows:false,
