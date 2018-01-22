@@ -1,0 +1,4 @@
+user-agent: *
+Disallow:
+
+sitemap:https://valle88.github.io/vagua/sitemap.xml
