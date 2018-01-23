@@ -209,19 +209,28 @@ header nav a:hover {
 #contacto{
   text-align: justify;
   background-color:#15ab71;
-  margin-top: 10px;
+  margin-top: 5px;
 
 }
 .formulario{
-
+  font-family: 'Shadows',cursive;
   align-items: center;
   justify-content: center;
-  padding:20px;
-  font-size: 20px;
+  font-size: 21px;
+  background-color: #27dec8;
 }
-#contacto.div {
-  padding: 20px;
+
+.nombre,.apellido,.direccion,.localidad,.myh,.telefono,.login,.suplogin,.enviar {
+  justify-content: center;
+  margin: 5px;
 }
+/*.apellido {
+  margin: 4px;
+  justify-content: center;
+
+}*/
+
+
 
 
 footer {
