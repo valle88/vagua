@@ -6,6 +6,7 @@ body {
 
 /*parte superior de la pagina*/
 header {
+    width: 100%;
     background-image: url(../fotos/fondo-blanco.png);
 }
 
@@ -55,9 +56,13 @@ header nav a i {
 }
 
 .registro {
+  display: inline-grid;
+  color: #df09a8;
   font-size: 15px;
   font-family: 'Josefin Slab';
-
+  background: #3c72e6;
+/*width: 210px;
+  height: 90px;*/
 }
 /*cuando se mueva el raton encima de las opciones del menu*/
 header nav a:hover {
