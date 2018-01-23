@@ -38,26 +38,35 @@ function cambiarcolor(elementoSelecionado) {
 }
 
 
-/*$(document).ready(function () {*/
-    /*$('.slider').slick({
+/*$(document).ready(function () {
+    $('.slider').slick({
       dots:true,
       arrows:false,
       autoplay:true
-    });*/
-    $ ( documento ). listo ( function () {
-       $ ( ' .owl-carrusel ' ). owlCarousel ();
     });
+  });*/
+$(document).ready(function () {
 
+  var slider = tns({
+    container: '.valle-slider',
+    controls: false,
+    nav: false,
+    autoplayButtonOutput: false,
+    autoplayTimeout: 2000,
+    mouseDrag: true,
+    slideBy: 'page',
+    autoplay: true
+  });
 
-    // $('#dorado-img').hide();
-    $('#negro-img').hide();
-    $('#gris-img').hide();
+  // $('#dorado-img').hide();
+  $('#negro-img').hide();
+  $('#gris-img').hide();
 
-    $('.selector-color i').click(function () {
-        cambiarcolor(this);
-    });
+  $('.selector-color i').click(function () {
+      cambiarcolor(this);
+  });
 
-
+});
 
     // $("#dorado").click(function () {
     //     cambiarcolor('dorado');
@@ -68,7 +77,6 @@ function cambiarcolor(elementoSelecionado) {
     // $("#rojo").click(function () {
     //     cambiarcolor('rojo');
     // });
-});
 
 var options = {
   activeClass: 'active'

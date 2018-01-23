@@ -4,24 +4,30 @@
 <head>
   <title>Vagua</title>
   <link rel="stylesheet" href="css/index.css">
+  <meta charset="utf-8">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">-->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.5.0/tiny-slider.css">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
-  <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
 <!--cabecera-->
 
 <body>
-  <header>
-    <nav class="menu">
+  <header class="menu">
+    <nav>
       <ul>
-        <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Inicio </a></li>
+        <li><a href="#inicio"><i class="fa fa-home" aria-hidden="true"></i>Inicio </a></li>
         <li><a href="#caracteristicas"><i class="fa fa-list-alt" aria-hidden="true"></i>Caracteristicas</a></li>
         <li><a href="#servicios"><i class="fa fa-handshake-o" aria-hidden="true"></i>Servicios</a></li>
         <li><a href="#marcas"><i class="fa fa-gift" aria-hidden="true"></i>Otras Marcas</a></li>
@@ -50,13 +56,16 @@
         <p>¡No esperes más y ven a nuestra tienda a comprarlo!</p>
       </div>
 
-      <div class="owl-carrusel owl-theme">
-        <div><img src="fotos/pantalla-infinita.png" alt="Foto Movil1"></div>
-        <div><img src="fotos/proy-reflejo.jpg" alt="Foto Movil2"></div>
-        <div><img src="fotos/pantalla2.png" alt="Foto Movil3"></div>
-        <div><img src="fotos/pantalla3.png" alt="foto movil4"></div>
-        <div><img src="fotos/camara.png" alt="foto movil5"></div>
+      <div class="fotos">
+        <div class="valle-slider">
+          <div><img src="fotos/pantalla-infinita.png" alt="Foto Movil1"></div>
+          <div><img src="fotos/proy-reflejo.jpg" alt="Foto Movil2"></div>
+          <div><img src="fotos/pantalla2.png" alt="Foto Movil3"></div>
+          <div><img src="fotos/pantalla3.png" alt="foto movil4"></div>
+          <div><img src="fotos/camara.png" alt="foto movil5"></div>
+        </div>
       </div>
+
     </div>
 
     <!-- caracteristicas -->
@@ -221,22 +230,22 @@
       <div class="formulario">
       <form name="contacto">
         <fieldset>
-          <label>Nombre: <input type="text" name="nombre" value="" placeholder="Tu nombre">
-          Primer Apellido: <input type="text" name="apellido" value="" placeholder="1º Apellido">
-          Segundo Apellido: <input type="text" name="apellido" value="" placeholder="2º Apellido">
-          Fecha Nacimiento: <input type="date" name="fecha" value="" ></label>
-          <label>Direccíon: <input type="text" name="direccion" value="" placeholder="Calle, numero, porton">
-          Codigo Postal: <input type="text" name=" postal" value="" placeholder="Ej: 38008" ></label>
-          <label>Localidad:<input type="text" name="Localidad" value="" placeholder="Ej: Santa Cruz de tenerife">
-            Poblacion: <input type="text" name="poblacion" value="" placeholder="Ej: Santa Cruz de tenerife"></label>
-          <label>Sexo: <input type="radio" name="sexo" value="M">Mujer
-          <input type="radio" name="sexo" value="H">Hombre</label>
-          <label>Telefono Movil: <input type="tel" name="movil" value="" placeholder=" xxx-xxx-xxx">
-          Email: <input type="email" name="email" value="" placeholder="usuario@email.com"></label>
-          <label>Usuario: <input type="text" name="usuario" value="" required>
-          Contraseña: <input type="password" name="contraseña" value="" required>
-          Confirmar Contraseña: <input type="password" name="contaseña" value=""required></label>
-          <label>Enviar <input type="submit"></label>
+          <div><label>Nombre: <input type="text" name="nombre" value="" placeholder="Tu nombre"></label>
+          <label>Primer Apellido: <input type="text" name="apellido" value="" placeholder="1º Apellido"></label></div>
+          <div><label>Segundo Apellido: <input type="text" name="apellido" value="" placeholder="2º Apellido"></label>
+          <label>Fecha Nacimiento: <input type="date" name="fecha" value="" ></label></div>
+          <div><label>Direccíon: <input type="text" name="direccion" value="" placeholder="Calle, numero, porton"></label>
+          <label>Codigo Postal: <input type="text" name=" postal" value="" placeholder="Ej: 38008" ></label></div>
+          <div><label>Localidad:<input type="text" name="Localidad" value="" placeholder="Ej: Santa Cruz de tenerife"></label>
+          <label>Poblacion: <input type="text" name="poblacion" value="" placeholder="Ej: Santa Cruz de tenerife"></label></div>
+          <div><label>Sexo: <input type="radio" name="sexo" value="M">Mujer</label>
+          <input type="radio" name="sexo" value="H">Hombre</label></div>
+          <div><label>Telefono Movil: <input type="tel" name="movil" value="" placeholder=" xxx-xxx-xxx"></label>
+          <label>Email: <input type="email" name="email" value="" placeholder="usuario@email.com"></label></div>
+          <div><label>Usuario: <input type="text" name="usuario" value="" required></label>
+          <label>Contraseña: <input type="password" name="contraseña" value="" required></label></div>
+          <div><label>Confirmar Contraseña: <input type="password" name="contaseña" value=""required></label></div></div>
+          <div><label>Enviar <input type="submit"></label></div>
         </fieldset>
       </form>
     </div>
@@ -248,14 +257,14 @@
     <a href="https://github.com/valle88/vagua"><i class="fa fa-github" aria-hidden="true"></i></a>
     <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/menuspy@1.2.1/dist/menuspy.min.js"></script>
-  <script type="text/javascript" src="js/seguridad.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.5.0/min/tiny-slider.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/menuspy@1.2.1/dist/menuspy.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.2.0/dist/owl.carousel.min.js"></script>
   <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>-->
+  <script type="text/javascript" src="js/seguridad.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
 </body>
 

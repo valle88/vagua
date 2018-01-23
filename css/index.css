@@ -9,7 +9,7 @@ header {
     background-image: url(../fotos/fondo-blanco.png);
 }
 
-.menu {
+.menu nav {
   position:fixed;
   top: 0;
   width:100%;
@@ -44,13 +44,13 @@ header nav a {
 header nav a i {
   padding-right: 5px;
 }
-.menu ul {
+.menu nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
 }
 
-.menu .active a {
+.menu nav .active a {
   background-color:red;
 }
 
@@ -84,6 +84,46 @@ header nav a:hover {
   text-align: center;
 }
 
+#servicios, #marcas, #contacto {
+  display:flex;
+  min-height: 300px;
+  align-items:center;
+}
+
+#marcas, #contacto {
+  flex-direction:column;
+  justify-content:center;
+}
+
+#marcas h3,
+#contacto h3 {
+  font-size: 34px;
+  margin:32px 0;
+}
+
+.logo .icono {
+    margin: 20px;
+}
+
+#servicios .fa {
+    font-size: 82px;
+    margin-bottom: 21px;
+}
+
+#marcas img {
+  filter:grayscale(1);
+  transition:all 1s;
+}
+
+#marcas img:hover {
+  filter:grayscale(0);
+}
+
+/* Encuadre para el slider */
+#inicio > div {
+    max-width: 600px;
+}
+
 /* Todos los h2 de la página */
 .pagina h2 {
   margin:0;
@@ -105,12 +145,11 @@ header nav a:hover {
   list-style-type:none;
 }
 
-.slider {
+/* .slider {
   align-items:center;
   width: 500px;
   height: 500px;
-
-}
+} */
 
 /* Sección de características */
 
@@ -174,7 +213,7 @@ header nav a:hover {
 
 }
 .formulario{
-  
+
   align-items: center;
   justify-content: center;
   padding:20px;
