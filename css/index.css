@@ -56,11 +56,12 @@ header nav a i {
 }
 
 .registro {
-  display: inline-grid;
+align-items: flex-end;
   color: #df09a8;
   font-size: 15px;
   font-family: 'Josefin Slab';
   background: #3c72e6;
+
 /*width: 210px;
   height: 90px;*/
 }
@@ -218,7 +219,7 @@ header nav a:hover {
 
 }
 .formulario{
-  font-family: 'Shadows',cursive;
+  font-family: 'conforta',cursive;
   align-items: center;
   justify-content: center;
   font-size: 21px;
@@ -229,11 +230,9 @@ header nav a:hover {
   justify-content: center;
   margin: 5px;
 }
-/*.apellido {
-  margin: 4px;
-  justify-content: center;
-
-}*/
+input{
+  color:#59b82d;
+}
 
 
 
