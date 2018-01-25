@@ -23,7 +23,7 @@ header h1 {
     font-size: 64px;
     text-align: center;
     margin: 0;
-    margin-top:70px;
+    /*margin-top:70px;*/
     text-transform:uppercase;
 }
 
@@ -55,8 +55,13 @@ header nav a i {
   background-color:red;
 }
 
+header .cabecera{
+  width: 1263px;
+  height: 100px;
+}
+
+
 .registro {
-align-items: flex-end;
   color: #df09a8;
   font-size: 15px;
   font-family: 'Josefin Slab';
@@ -230,9 +235,9 @@ header nav a:hover {
   justify-content: center;
   margin: 5px;
 }
-input{
-  color:#59b82d;
-}
+input {
+    color: #59b82d;
+  }
 
 
 

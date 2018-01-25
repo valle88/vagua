@@ -32,25 +32,28 @@
 <!--cabecera-->
 
 <body>
-  <header class="menu">
-    <nav>
+  <header >
+    <div class="cabecera">
+      <form class="registro" action="/" method="post">
+      <fieldset>
+        <label> Usuario:<input type="text" name="usuario" placeholder="usuario" required size="10" ></label>
+        <label> contraseña: <input type="password" name="contraseña" required size="10" ></label>
+      </fieldset>
+    </form>
+    </div>
+    <div class="menu">
+    <nav >
       <ul>
         <li><a href="#inicio"><i class="fa fa-home" aria-hidden="true"></i>Inicio </a></li>
         <li><a href="#caracteristicas"><i class="fa fa-list-alt" aria-hidden="true"></i>Caracteristicas</a></li>
         <li><a href="#servicios"><i class="fa fa-handshake-o" aria-hidden="true"></i>Servicios</a></li>
         <li><a href="#marcas"><i class="fa fa-gift" aria-hidden="true"></i>Otras Marcas</a></li>
         <li><a href="#contacto" name="contacto"><i class="fa fa-address-card-o" aria-hidden="true"></i>Contacto</a></li>
-        <li class="registro">  <form  action="/" method="post">
-            <fieldset>
-              <label> Usuario:<input type="text" name="usuario" placeholder="usuario" required size="10" ></label>
-              <label> contraseña: <input type="password" name="contraseña" required size="10" ></label>
-            </fieldset>
-          </form></li>
       </ul>
       <!--registro-->
 
     </nav>
-
+</div>
     <h1>Vagua</h1>
   </header>
 
