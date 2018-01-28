@@ -2,6 +2,7 @@
 body {
     background-color: #6c9adf;
     margin: 0;
+    
 }
 
 /*parte superior de la pagina*/
@@ -93,6 +94,7 @@ header nav a:hover {
   color:#fffcfb;
   font-size: 23px;
   text-align: center;
+
 }
 
 #servicios, #marcas, #contacto {
@@ -221,6 +223,8 @@ header nav a:hover {
   text-align: justify;
   background-color:#15ab71;
   margin-top: 5px;
+  /*width: 1120px;
+  height:1263px ;*/
 
 }
 .formulario{
