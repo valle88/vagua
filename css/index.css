@@ -1,8 +1,8 @@
 /*estructura de la pagina completa*/
 body {
-    background-color: #6c9adf;
-    margin: 0;
     
+    margin: 0;
+
 }
 
 /*parte superior de la pagina*/
@@ -88,13 +88,28 @@ header nav a:hover {
 #inicio, #caracteristicas, #procesador, #rambat, #camara, #otros {
   display: flex;
   align-items:center;
-  /* justify-content:center; */
+  justify-content:center;
   font-family: 'Comfortaa', cursive;
   background: #6144b1;
   color:#fffcfb;
   font-size: 23px;
   text-align: center;
+}
 
+#inicio {
+  background-color: #59147e;
+}
+
+#procesador {
+  background-color: #450eab;
+}
+
+#rambat {
+  background-color: #352b5d;
+}
+
+#camara {
+  background-color: #5b11af;
 }
 
 #servicios, #marcas, #contacto {
@@ -121,6 +136,10 @@ header nav a:hover {
 #servicios .fa {
     font-size: 82px;
     margin-bottom: 21px;
+}
+
+#marcas {
+  background-color: #fefefe;
 }
 
 #marcas img {
