@@ -41,7 +41,6 @@
 <body>
   <header>
     <div class="menu">
-
       <nav>
         <ul>
           <li><a href="#inicio"><i class="fa fa-home" aria-hidden="true"></i>Inicio </a></li>
@@ -51,6 +50,7 @@
           <li><a href="#contacto" name="contacto"><i class="fa fa-address-card-o" aria-hidden="true"></i>Contacto</a></li>
         </ul>
         <!--registro-->
+
       </nav>
       <form class="registro" action="/" method="post">
         <fieldset>
@@ -82,106 +82,110 @@
         <div><img src="fotos/camara.png" alt="camara-movil"></div>
       </div>
     </div>
-
   </section>
 
   <!-- caracteristicas -->
   <section id="caracteristicas">
+    <div class="contenido-caracteristicas">
+      <div class="fotos">
+        <!--imagenes con js para cambiar el color de las fotos-->
+        <div><img id="dorado-img" src="fotos/moviltransdor.jpg" alt="movil-dorado"></div>
+        <div><img id="negro-img" src="fotos/moviltransne.jpg" alt="movil-negro"></div>
+        <div><img id="gris-img" src="fotos/moviltransgr.jpg" alt="movil-gris"></div>
+        <div class="selector-color">
+          <i id="dorado" data-image="dorado-img" class="fa fa-circle fa-2x dorado" aria-hidden="true"></i>
+          <i id="negro" data-image="negro-img" class="fa fa-circle fa-2x negro" aria-hidden="true"></i>
+          <i id="gris" data-image="gris-img" class="fa fa-circle fa-2x rojo" aria-hidden="true"></i>
+        </div>
+      </div>
 
-    <div class="fotos">
-      <!--imagenes con js para cambiar el color de las fotos-->
-      <div><img id="dorado-img" src="fotos/moviltransdor.jpg" alt="movil-dorado"></div>
-      <div><img id="negro-img" src="fotos/moviltransne.jpg" alt="movil-negro"></div>
-      <div><img id="gris-img" src="fotos/moviltransgr.jpg" alt="movil-gris"></div>
-      <div class="selector-color">
-        <i id="dorado" data-image="dorado-img" class="fa fa-circle fa-2x dorado" aria-hidden="true"></i>
-        <i id="negro" data-image="negro-img" class="fa fa-circle fa-2x negro" aria-hidden="true"></i>
-        <i id="gris" data-image="gris-img" class="fa fa-circle fa-2x rojo" aria-hidden="true"></i>
+      <div class="texto">
+        <h2>PANTALLA</h2>
+        <ul>
+          <li>6 pulgadas</li>
+          <li>Aspecto 18:9</li>
+          <li>Resolucion FullHD+ <br> (2.160x 1.090)</li>
+          <li>Cristal 2.5D</li>
+        </ul>
       </div>
     </div>
 
-    <div class="texto">
-      <h2>PANTALLA</h2>
-      <ul>
-        <li>6 pulgadas</li>
-        <li>Aspecto 18:9</li>
-        <li>Resolucion FullHD+ <br> (2.160x 1.090)</li>
-        <li>Cristal 2.5D</li>
-      </ul>
-    </div>
     <div class="siguiente">
-    <a href="#procesador"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a>
+      <a href="#procesador"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a>
     </div>
   </section>
 
   <!-- procesador -->
   <section id="procesador">
+    <div class="contenido-caracteristicas">
+      <div class="texto">
+        <h2>PROCESADOR</h2>
+        <ul>
+          <li>Kirin 970 de ocho núcleos</li>
+          <li>GPU Mali G72 MP12</li>
+        </ul>
+        <h2>RAM</h2>
+        <ul>
+          <li>6GB/12GB</li>
+        </ul>
+      </div>
 
-    <div class="texto">
-      <h2>PROCESADOR</h2>
-      <ul>
-        <li>Kirin 970 de ocho núcleos</li>
-        <li>GPU Mali G72 MP12</li>
-      </ul>
-      <h2>RAM</h2>
-      <ul>
-        <li>6GB/12GB</li>
-      </ul>
-    </div>
-
-    <div class="fotos">
-      <img src="fotos/procesador.png" alt="procesador">
+      <div class="fotos">
+        <img src="fotos/procesador.png" alt="procesador">
+      </div>
     </div>
     <div class="siguiente">
-    <a href="#rambat"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a>
+      <a href="#rambat"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a>
     </div>
   </section>
 
   <!-- rambat -->
   <section id="rambat">
+    <div class="contenido-caracteristicas">
+      <div class="fotos">
+        <img src="fotos/bateria1.jpg" alt="Bateria-movil">
+      </div>
 
-    <div class="fotos">
-      <img src="fotos/bateria1.jpg" alt="Bateria-movil">
-    </div>
+      <div class="texto">
 
-    <div class="texto">
-
-      <h2>ALMACENAMIENTO</h2>
-      <ul>
-        <li>64GB/128GB mas microSD hasta 256GB</li>
-      </ul>
-      <h2>BATERIA</h2>
-      <ul>
-        <li>3.750mAh</li>
-        <li>Carga rápido SuperCharge</li>
-      </ul>
+        <h2>ALMACENAMIENTO</h2>
+        <ul>
+          <li>64GB/128GB mas microSD hasta 256GB</li>
+        </ul>
+        <h2>BATERIA</h2>
+        <ul>
+          <li>3.750mAh</li>
+          <li>Carga rápido SuperCharge</li>
+        </ul>
+      </div>
     </div>
     <div class="siguiente">
-    <a href="#camara"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a>
+      <a href="#camara"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a>
     </div>
   </section>
 
   <!-- camara -->
   <section id="camara">
+    <div class="contenido-caracteristicas">
+      <div class="texto">
+        <h2>CAMARA PRINCIPAL</h2>
+        <ul>
+          <li>16 + 20 megapíxeles <br> (f/1.8, f/2.0)</li>
+        </ul>
+        <h2>CAMARA FRONTAL</h2>
+        <ul>
+          <li>13 megapixeles <br> (f/2.0)
+          </li>
+        </ul>
 
-    <div class="texto">
-      <h2>CAMARA PRINCIPAL</h2>
-      <ul>
-        <li>16 + 20 megapíxeles <br> (f/1.8, f/2.0)</li>
-      </ul>
-      <h2>CAMARA FRONTAL</h2>
-      <ul>
-        <li>13 megapixeles <br> (f/2.0)
-        </li>
-      </ul>
+      </div>
 
-    </div>
-
-    <div class="fotos">
-      <img src="fotos/camara2.png" alt="camara">
+      <div class="fotos">
+        <img src="fotos/camara2.png" alt="camara">
+      </div>
     </div>
     <div class="siguiente">
-    <a href="#otros"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a>
+      <a href="#otros"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a>
     </div>
   </section>
 
