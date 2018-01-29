@@ -31,14 +31,13 @@ En esta pagina vamos a presentar enl ultimo modelo de telefonia movil.
 ![boceto](fotos/boceto3.png)
 
 ## librerias usadas
--tiny slider: [http://ganlanyuan.github.io/tiny-slider/tests/](https://ganlanyuan.github.io/timy-slider7tests7) Esta libreria esta usada para el primer slider.
--menu spy: [https://leocs.me/menuspy](hhtps://leocs.me/menuspy) Esta libreria es la que utilize para el menu.
+- tiny slider: [http://ganlanyuan.github.io/tiny-slider/tests/](https://ganlanyuan.github.io/timy-slider7tests7) Esta libreria esta usada para el primer slider.
+- menu spy: [https://leocs.me/menuspy](hhtps://leocs.me/menuspy) Esta libreria es la que utilize para el menu.
 
 ## estilo de fuente
--shadows
--josefin
-confortaa
+- shadows
+- josefin
+- confortaa
 
 ## cosas que faltan por hacer
--responsive
-
+- responsive
