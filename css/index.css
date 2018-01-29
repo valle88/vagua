@@ -120,13 +120,13 @@ header nav a:hover {
   justify-content: center;
   padding-top: 144px;
   font-family: 'Comfortaa', cursive;
-  background: #6144b1;
+  
   color: #fffcfb;
 }
 
 
 section {
-  height: 1069px;
+  height:  997px;
 }
 
 #inicio {
@@ -313,7 +313,7 @@ section {
 .siguiente {
   text-align: center;
   font-size: 25px;
-  padding-top: 10px;
+  /*padding-top: 10px;*/
 }
 
 .siguiente a {
