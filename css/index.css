@@ -283,6 +283,11 @@ section {
   margin: 10px;
 }
 
+.siguiente a {
+  
+  color: black;
+}
+
 input {
   color: #59b82d;
 }
