@@ -13,7 +13,7 @@ header {
 
 .menu nav {
   position:fixed;
-  top: 0;
+  top: 1;
   width:100%;
   z-index:5;
 }
@@ -65,7 +65,9 @@ header .cabecera{
   color: #df09a8;
   font-size: 15px;
   font-family: 'Josefin Slab';
-  background: #3c72e6;
+  width: 380px;
+  height: 40px;
+
 }
 
 /*cuando se mueva el raton encima de las opciones del menu*/
@@ -83,7 +85,9 @@ header nav a:hover {
 }
 
 #inicio, #caracteristicas, #procesador, #rambat, #camara, #otros {
-  display: flex;
+  display: grid;
+   grid-template-columns:repeat(2,1fr);
+    grid-template-rows: 3fr 1fr;
   align-items:center;
   justify-content:center;
   font-family: 'Comfortaa', cursive;
@@ -93,8 +97,12 @@ header nav a:hover {
   text-align: center;
 }
 
+section {
+  height: 981px;
+}
 #inicio {
   background-color: #59147e;
+
 }
 
 #procesador {
