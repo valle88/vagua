@@ -26,7 +26,7 @@ header h1 {
   font-size: 64px;
   text-align: center;
   margin: 0;
-  margin-top:71px;
+  margin-top:-53px;
   text-transform: uppercase;
 }
 
@@ -68,10 +68,11 @@ header .cabecera {
 
 .registro {
   color: #df09a8;
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Josefin Slab';
   width: 380px;
   height: 40px;
+  margin-top: 76px;
 
 }
 
