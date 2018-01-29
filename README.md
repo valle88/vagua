@@ -32,7 +32,7 @@ En esta pagina vamos a presentar enl ultimo modelo de telefonia movil.
 
 ## Fase 4: Captura trello y pagina final
 
-![trello](fotos/trello.png)
+![trello](fotos/trello.PNG)
 
 ## librerias usadas
 - tiny slider: [http://ganlanyuan.github.io/tiny-slider/tests/](https://ganlanyuan.github.io/timy-slider7tests7) Esta libreria esta usada para el primer slider.
