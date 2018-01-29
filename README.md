@@ -28,7 +28,7 @@ En esta pagina vamos a presentar enl ultimo modelo de telefonia movil.
 
 ## Fase 3: Boceto casi finalizado de la pagina
 
-![boceto] (fotos/boceto3.png)
+![boceto](fotos/boceto3.png)
 
 ## librerias usadas
 -tiny slider: [http://ganlanyuan.github.io/tiny-slider/tests/]
