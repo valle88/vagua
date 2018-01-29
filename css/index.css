@@ -1,6 +1,6 @@
 /*estructura de la pagina completa*/
 body {
-    
+
     margin: 0;
 
 }
@@ -61,16 +61,13 @@ header .cabecera{
   height: 100px;
 }
 
-
 .registro {
   color: #df09a8;
   font-size: 15px;
   font-family: 'Josefin Slab';
   background: #3c72e6;
-
-/*width: 210px;
-  height: 90px;*/
 }
+
 /*cuando se mueva el raton encima de las opciones del menu*/
 header nav a:hover {
     background-color: #4a30e6;
@@ -200,7 +197,14 @@ header nav a:hover {
 }
 .selector-color {
     height: 40px;
+    margin: 20px;
 }
+
+#procesador {}
+  .fotos {
+    margin:20px;
+  }
+
 
 #servicios {
     display: flex;
