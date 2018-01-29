@@ -1,62 +1,65 @@
 /*estructura de la pagina completa*/
+
 body {
-
-    margin: 0;
-
+  margin: 0;
 }
 
 /*parte superior de la pagina*/
+
 header {
-    width: 100%;
-    background-image: url(../fotos/fondo-blanco.png);
+  width: 100%;
+  background-image: url(../fotos/fondo-blanco.png);
 }
 
 .menu nav {
-  position:fixed;
+  position: fixed;
   top: 1;
-  width:100%;
-  z-index:5;
+  width: 100%;
+  z-index: 5;
 }
 
 header h1 {
-    color: #e62727;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 64px;
-    text-align: center;
-    margin: 0;
-    /*margin-top:70px;*/
-    text-transform:uppercase;
+  color: #e62727;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 64px;
+  text-align: center;
+  margin: 0;
+  /*margin-top:70px;*/
+  text-transform: uppercase;
 }
 
 /*menu*/
+
 header nav {
-    padding: 10px;
-    text-align: center;
-    background-color: #0d118c;
+  padding: 10px;
+  text-align: center;
+  background-color: #0d118c;
 }
 
 header nav a {
-    background-color: #0d118c;
-    color: #c2ccd0;
-    font-size: 20px;
-    padding: 10px;
-    text-decoration: none;
-    font-family: 'Josefin Slab';
+  background-color: #0d118c;
+  color: #c2ccd0;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'Josefin Slab';
 }
+
 header nav a i {
   padding-right: 5px;
 }
+
 .menu nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
 
 .menu nav .active a {
-  background-color:red;
+  background-color: red;
 }
 
-header .cabecera{
+header .cabecera {
   width: 1263px;
   height: 100px;
 }
@@ -67,42 +70,43 @@ header .cabecera{
   font-family: 'Josefin Slab';
   width: 380px;
   height: 40px;
-
 }
 
 /*cuando se mueva el raton encima de las opciones del menu*/
+
 header nav a:hover {
-    background-color: #4a30e6;
-    color: #ffffff;
+  background-color: #4a30e6;
+  color: #ffffff;
 }
 
 /*estructura de pagina despues del hider*/
+
 .pagina {
-    width: 1000px;
-    margin: auto;
-    background: white;
-    /*position: relative;*/
+  width: 1000px;
+  margin: auto;
+  background: white;
+  /*position: relative;*/
 }
 
 #inicio, #caracteristicas, #procesador, #rambat, #camara, #otros {
   display: grid;
-   grid-template-columns:repeat(2,1fr);
-    grid-template-rows: 3fr 1fr;
-  align-items:center;
-  justify-content:center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 3fr 1fr;
+  align-items: center;
+  justify-content: center;
   font-family: 'Comfortaa', cursive;
   background: #6144b1;
-  color:#fffcfb;
+  color: #fffcfb;
   font-size: 23px;
   text-align: center;
 }
 
 section {
-  height: 981px;
+  height: 982px;
 }
+
 #inicio {
   background-color: #59147e;
-
 }
 
 #procesador {
@@ -118,29 +122,28 @@ section {
 }
 
 #servicios, #marcas, #contacto {
-  display:flex;
+  display: flex;
   min-height: 300px;
-  align-items:center;
+  align-items: center;
 }
 
 #marcas, #contacto {
-  flex-direction:column;
-  justify-content:center;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#marcas h3,
-#contacto h3 {
+#marcas h3, #contacto h3 {
   font-size: 34px;
-  margin:32px 0;
+  margin: 32px 0;
 }
 
 .logo .icono {
-    margin: 20px;
+  margin: 20px;
 }
 
 #servicios .fa {
-    font-size: 82px;
-    margin-bottom: 21px;
+  font-size: 82px;
+  margin-bottom: 21px;
 }
 
 #marcas {
@@ -148,38 +151,40 @@ section {
 }
 
 #marcas img {
-  filter:grayscale(1);
-  transition:all 1s;
+  filter: grayscale(1);
+  transition: all 1s;
 }
 
 #marcas img:hover {
-  filter:grayscale(0);
+  filter: grayscale(0);
 }
 
 /* Encuadre para el slider */
-#inicio > div {
-    max-width: 600px;
+
+#inicio>div {
+  max-width: 600px;
 }
 
 /* Todos los h2 de la página */
+
 .pagina h2 {
-  margin:0;
-  margin-bottom:20px;
+  margin: 0;
+  margin-bottom: 20px;
 }
+
 .pagina h3 {
   font-family: 'Comfortaa', fantasy;
   text-align: center;
   margin-bottom: 10px;
   margin: 0;
-
 }
 
 .pagina .texto {
-  padding:75px;
+  padding: 75px;
 }
 
 .pagina ul {
-  list-style-type:none;
+  list-style-type: none;
 }
 
 /* .slider {
@@ -193,104 +198,102 @@ section {
 #caracteristicas fotos {}
 
 .dorado {
-    color: #edc873;
+  color: #edc873;
 }
 
 .negro {
-    color: #4b4747;
+  color: #4b4747;
 }
 
 .gris {
-    color: #727277;
+  color: #727277;
 }
+
 .selector-color {
-    height: 40px;
-    margin: 20px;
+  height: 40px;
+  margin: 20px;
 }
 
-#procesador {}
-  .fotos {
-    margin:20px;
-  }
+/*#procesador {}
 
-
+.fotos {
+  margin: 20px;
+}*/
 
 #servicios {
-    display: flex;
-    background: #1fa9bb;
-    /*align-items:center;*/
+  display: flex;
+  background: #1fa9bb;
+  /*align-items:center;*/
 }
 
 .utilidad {
-    font-family: 'Comfortaa',cursive;
-    display: block;
-    align-items:center;
-    text-align: center;
-    margin: 32px;
-    text-align: center;
-    width: 100%;
+  font-family: 'Comfortaa', cursive;
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin: 32px;
+  text-align: center;
+  width: 100%;
 }
+
 .utilidad p {
   text-align: center;
-  align-items:center;
-
+  align-items: center;
 }
 
-.marcas{
+.marcas {
   align-items: center;
   display: flex;
   margin: 32px;
 }
-.logo {
 
+.logo {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
 }
 
-.icono{
+.icono {
   margin: 6px;
 }
-#contacto{
+
+#contacto {
   text-align: justify;
-  background-color:#15ab71;
+  background-color: #15ab71;
   margin-top: 5px;
   /*width: 1120px;
   height:1263px ;*/
-
 }
-.formulario{
-  font-family: 'conforta',cursive;
+
+.formulario {
+  font-family: 'conforta', cursive;
   align-items: center;
   justify-content: center;
   font-size: 21px;
   background-color: #27dec8;
 }
 
-.nombre,.apellido,.direccion,.localidad,.myh,.telefono,.login,.suplogin,.enviar {
+.nombre, .apellido, .direccion, .localidad, .myh, .telefono, .login, .suplogin, .enviar {
   justify-content: center;
   margin: 10px;
 }
+
 input {
-    color: #59b82d;
-  }
-
-
-
+  color: #59b82d;
+}
 
 footer {
-  background:#222;
-  padding:32px;
-  text-align:center;
+  background: #222;
+  padding: 32px;
+  text-align: center;
 }
 
 footer a {
-  color:#CCC;
-  font-size:22px;
-  padding:10px;
+  color: #CCC;
+  font-size: 22px;
+  padding: 10px;
 }
 
-
 .texto ul {
-    padding-left: 0;
+  padding-left: 0;
 }
