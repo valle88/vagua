@@ -102,7 +102,7 @@ $(document).ready(function () {
         renewOnVisit: false,
         bottom: true,
         fixed: true,
-        zindex: '',
+        zindex: '100',
 
 
     });
