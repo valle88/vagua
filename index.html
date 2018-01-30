@@ -1,303 +1,306 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <title>Vagua</title>
-  <meta name="description" content="Pagina realizada para la venta y compras de telefonia.Tambien ofrecemos: reparacion y liberación de moviles,tables.">
-  <link rel="stylesheet" href="css/index.css">
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/jquery.cookiebar.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.5.0/tiny-slider.css">
+    <head>
+        <title>Vagua</title>
+        <meta name="description" content="Pagina realizada para la venta y compras de telefonia.Tambien ofrecemos: reparacion y liberación de moviles,tables.">
+        <link rel="stylesheet" href="css/index.css">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/jquery.cookiebar.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.5.0/tiny-slider.css">
 
-  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-  <meta name="theme-color" content="#ffffff">
-  <!-- Google Analytics -->
-  <script>
-    (function(i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <meta name="theme-color" content="#ffffff">
+        <!-- Google Analytics -->
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-36948207-2', 'auto');
-    ga('send', 'pageview');
-  </script>
-  <!-- End Google Analytics -->
-</head>
-<!--cabecera-->
+            ga('create', 'UA-36948207-2', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <!-- End Google Analytics -->
+    </head>
+    <!--cabecera-->
 
-<body>
-  <header>
-    <div class="menu">
-      <nav>
-        <ul>
-          <li><a href="#inicio"><i class="fa fa-home" aria-hidden="true"></i>Inicio </a></li>
-          <li><a href="#caracteristicas"><i class="fa fa-list-alt" aria-hidden="true"></i>Caracteristicas</a></li>
-          <li><a href="#servicios"><i class="fa fa-handshake-o" aria-hidden="true"></i>Servicios</a></li>
-          <li><a href="#marcas"><i class="fa fa-gift" aria-hidden="true"></i>Otras Marcas</a></li>
-          <li><a href="#contacto" name="contacto"><i class="fa fa-address-card-o" aria-hidden="true"></i>Contacto</a></li>
-        </ul>
-        <!--registro-->
+    <body>
+        <header>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#inicio"><i class="fa fa-home" aria-hidden="true"></i>Inicio </a></li>
+                        <li><a href="#caracteristicas"><i class="fa fa-list-alt" aria-hidden="true"></i>Caracteristicas</a></li>
+                        <li><a href="#servicios"><i class="fa fa-handshake-o" aria-hidden="true"></i>Servicios</a></li>
+                        <li><a href="#marcas"><i class="fa fa-gift" aria-hidden="true"></i>Otras Marcas</a></li>
+                        <li id="link-contacto"><a href="#contacto" name="contacto"><i class="fa fa-address-card-o" aria-hidden="true"></i>Contacto</a></li>
+                    </ul>
+                    <!--registro-->
 
-      </nav>
-      <form class="registro" action="/" method="post">
-        <fieldset>
-          <label> Usuario:<input type="text" name="usuario" placeholder="usuario" required size="10" ></label>
-          <label> contraseña: <input type="password" name="contraseña" required size="10" ></label>
-          <label><input type="submit"></label>
-        </fieldset>
-      </form>
-    </div>
-    <h1>Vagua</h1>
-  </header>
+                </nav>
+                <form id="formulario-login" onsubmit="return validarFormularioLogin()">
+                    <fieldset>
+                        <div class="registro">
+                            <label> Usuario:<input class="nombre-login" type="text" name="usuario" placeholder="usuario" required size="10"></label>
+                            <label> contraseña: <input class="password-login" type="password" name="contraseña" required size="10"></label>
+                            <label><input type="submit"></label>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <h1>Vagua</h1>
+                        <button id="logout-btn" onclick="logoutUsuario()">Salir</button>
+        </header>
 
-  <!--  <div class="pagina">-->
+        <!--  <div class="pagina">-->
 
-  <!-- inicio -->
-  <section id="inicio">
-    <div class="texto">
-      <h2>Atención</h2>
-      <p>Siempre has querido un móvil que se adapte a tus necesidades...</p>
-      <p>¿Qué tal uno que se doble y se adapte a tu bolsillo?</p>
-      <p>¡No esperes más y ven a nuestra tienda a comprarlo!</p>
-    </div>
+        <!-- inicio -->
+        <section id="inicio">
+            <div class="texto">
+                <h2>Atención</h2>
+                <p>Siempre has querido un móvil que se adapte a tus necesidades...</p>
+                <p>¿Qué tal uno que se doble y se adapte a tu bolsillo?</p>
+                <p>¡No esperes más y ven a nuestra tienda a comprarlo!</p>
+            </div>
 
-    <div class="fotos">
-      <div class="valle-slider">
-        <div><img src="fotos/pantalla-infinita.png" alt="pantalla-infinita"></div>
-        <div><img src="fotos/proy-reflejo.jpg" alt="pantalle-reflejo"></div>
-        <div><img src="fotos/pantalla2.png" alt="pantalla-movil"></div>
-        <div><img src="fotos/pantalla3.png" alt="pantalla-total-movil"></div>
-        <div><img src="fotos/camara.png" alt="camara-movil"></div>
-      </div>
-    </div>
-  </section>
+            <div class="fotos">
+                <div class="valle-slider">
+                    <div><img src="fotos/pantalla-infinita.png" alt="pantalla-infinita"></div>
+                    <div><img src="fotos/proy-reflejo.jpg" alt="pantalle-reflejo"></div>
+                    <div><img src="fotos/pantalla2.png" alt="pantalla-movil"></div>
+                    <div><img src="fotos/pantalla3.png" alt="pantalla-total-movil"></div>
+                    <div><img src="fotos/camara.png" alt="camara-movil"></div>
+                </div>
+            </div>
+        </section>
 
-  <!-- caracteristicas -->
-  <section id="caracteristicas">
-    <div class="contenido-caracteristicas">
-      <div class="fotos">
-        <!--imagenes con js para cambiar el color de las fotos-->
-        <div><img id="dorado-img" src="fotos/moviltransdor.jpg" alt="movil-dorado"></div>
-        <div><img id="negro-img" src="fotos/moviltransne.jpg" alt="movil-negro"></div>
-        <div><img id="gris-img" src="fotos/moviltransgr.jpg" alt="movil-gris"></div>
-        <div class="selector-color">
-          <i id="dorado" data-image="dorado-img" class="fa fa-circle fa-2x dorado" aria-hidden="true"></i>
-          <i id="negro" data-image="negro-img" class="fa fa-circle fa-2x negro" aria-hidden="true"></i>
-          <i id="gris" data-image="gris-img" class="fa fa-circle fa-2x rojo" aria-hidden="true"></i>
-        </div>
-      </div>
+        <!-- caracteristicas -->
+        <section id="caracteristicas">
+            <div class="contenido-caracteristicas">
+                <div class="fotos">
+                    <!--imagenes con js para cambiar el color de las fotos-->
+                    <div><img id="dorado-img" src="fotos/moviltransdor.jpg" alt="movil-dorado"></div>
+                    <div><img id="negro-img" src="fotos/moviltransne.jpg" alt="movil-negro"></div>
+                    <div><img id="gris-img" src="fotos/moviltransgr.jpg" alt="movil-gris"></div>
+                    <div class="selector-color">
+                        <i id="dorado" data-image="dorado-img" class="fa fa-circle fa-2x dorado" aria-hidden="true"></i>
+                        <i id="negro" data-image="negro-img" class="fa fa-circle fa-2x negro" aria-hidden="true"></i>
+                        <i id="gris" data-image="gris-img" class="fa fa-circle fa-2x rojo" aria-hidden="true"></i>
+                    </div>
+                </div>
 
-      <div class="texto">
-        <h2>PANTALLA</h2>
-        <ul>
-          <li>6 pulgadas</li>
-          <li>Aspecto 18:9</li>
-          <li>Resolucion FullHD+ <br> (2.160x 1.090)</li>
-          <li>Cristal 2.5D</li>
-        </ul>
-      </div>
-    </div>
+                <div class="texto">
+                    <h2>PANTALLA</h2>
+                    <ul>
+                        <li>6 pulgadas</li>
+                        <li>Aspecto 18:9</li>
+                        <li>Resolucion FullHD+ <br> (2.160x 1.090)</li>
+                        <li>Cristal 2.5D</li>
+                    </ul>
+                </div>
+            </div>
 
-    <div class="siguiente">
-      <a href="#procesador"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a>
-    </div>
-  </section>
+            <div class="siguiente">
+                <a href="#procesador"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a>
+            </div>
+        </section>
 
-  <!-- procesador -->
-  <section id="procesador">
-    <div class="contenido-caracteristicas">
-      <div class="texto">
-        <h2>PROCESADOR</h2>
-        <ul>
-          <li>Kirin 970 de ocho núcleos</li>
-          <li>GPU Mali G72 MP12</li>
-        </ul>
-        <h2>RAM</h2>
-        <ul>
-          <li>6GB/12GB</li>
-        </ul>
-      </div>
+        <!-- procesador -->
+        <section id="procesador">
+            <div class="contenido-caracteristicas">
+                <div class="texto">
+                    <h2>PROCESADOR</h2>
+                    <ul>
+                        <li>Kirin 970 de ocho núcleos</li>
+                        <li>GPU Mali G72 MP12</li>
+                    </ul>
+                    <h2>RAM</h2>
+                    <ul>
+                        <li>6GB/12GB</li>
+                    </ul>
+                </div>
 
-      <div class="fotos">
-        <img src="fotos/procesador.png" alt="procesador">
-      </div>
-    </div>
-    <div class="siguiente">
-      <a href="#rambat"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a>
-    </div>
-  </section>
+                <div class="fotos">
+                    <img src="fotos/procesador.png" alt="procesador">
+                </div>
+            </div>
+            <div class="siguiente">
+                <a href="#rambat"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a>
+            </div>
+        </section>
 
-  <!-- rambat -->
-  <section id="rambat">
-    <div class="contenido-caracteristicas">
-      <div class="fotos">
-        <img src="fotos/bateria1.jpg" alt="Bateria-movil">
-      </div>
+        <!-- rambat -->
+        <section id="rambat">
+            <div class="contenido-caracteristicas">
+                <div class="fotos">
+                    <img src="fotos/bateria1.jpg" alt="Bateria-movil">
+                </div>
 
-      <div class="texto">
+                <div class="texto">
 
-        <h2>ALMACENAMIENTO</h2>
-        <ul>
-          <li>64GB/128GB mas microSD hasta 256GB</li>
-        </ul>
-        <h2>BATERIA</h2>
-        <ul>
-          <li>3.750mAh</li>
-          <li>Carga rápido SuperCharge</li>
-        </ul>
-      </div>
-    </div>
-    <div class="siguiente">
-      <a href="#camara"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a>
-    </div>
-  </section>
+                    <h2>ALMACENAMIENTO</h2>
+                    <ul>
+                        <li>64GB/128GB mas microSD hasta 256GB</li>
+                    </ul>
+                    <h2>BATERIA</h2>
+                    <ul>
+                        <li>3.750mAh</li>
+                        <li>Carga rápido SuperCharge</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="siguiente">
+                <a href="#camara"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a>
+            </div>
+        </section>
 
-  <!-- camara -->
-  <section id="camara">
-    <div class="contenido-caracteristicas">
-      <div class="texto">
-        <h2>CAMARA PRINCIPAL</h2>
-        <ul>
-          <li>16 + 20 megapíxeles <br> (f/1.8, f/2.0)</li>
-        </ul>
-        <h2>CAMARA FRONTAL</h2>
-        <ul>
-          <li>13 megapixeles <br> (f/2.0)
-          </li>
-        </ul>
+        <!-- camara -->
+        <section id="camara">
+            <div class="contenido-caracteristicas">
+                <div class="texto">
+                    <h2>CAMARA PRINCIPAL</h2>
+                    <ul>
+                        <li>16 + 20 megapíxeles <br> (f/1.8, f/2.0)</li>
+                    </ul>
+                    <h2>CAMARA FRONTAL</h2>
+                    <ul>
+                        <li>13 megapixeles <br> (f/2.0)
+                        </li>
+                    </ul>
 
-      </div>
+                </div>
 
-      <div class="fotos">
-        <img src="fotos/camara2.png" alt="camara">
-      </div>
-    </div>
-    <div class="siguiente">
-      <a href="#otros"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a>
-    </div>
-  </section>
+                <div class="fotos">
+                    <img src="fotos/camara2.png" alt="camara">
+                </div>
+            </div>
+            <div class="siguiente">
+                <a href="#otros"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a>
+            </div>
+        </section>
 
-  <!-- otros -->
-  <section id="otros">
-    <div class="fotos">
-      <a href="#servicios"><img src="fotos/dimensiones.png" alt="dimensiones"></a>
-    </div>
-    <div class="texto">
-      <h2>SISTEMA OPERATIVO</h2>
-      <ul>
-        <li>Android 8.0 bajo EMUI 8.0</li>
-      </ul>
-      <h2>DIMENSIONES</h2>
-      <ul>
-        <li>4,95 milímetros de grosor</li>
-      </ul>
-      <h2>Otros</h2>
-      <ul>
-        <li>Lector de huellas dactilares frontal</li>
-      </ul>
-    </div>
-  </section>
-  <!--servicios -->
-  <section id="servicios">
+        <!-- otros -->
+        <section id="otros">
+            <div class="fotos">
+                <a href="#servicios"><img src="fotos/dimensiones.png" alt="dimensiones"></a>
+            </div>
+            <div class="texto">
+                <h2>SISTEMA OPERATIVO</h2>
+                <ul>
+                    <li>Android 8.0 bajo EMUI 8.0</li>
+                </ul>
+                <h2>DIMENSIONES</h2>
+                <ul>
+                    <li>4,95 milímetros de grosor</li>
+                </ul>
+                <h2>Otros</h2>
+                <ul>
+                    <li>Lector de huellas dactilares frontal</li>
+                </ul>
+            </div>
+        </section>
+        <!--servicios -->
+        <section id="servicios">
 
-    <div class="utilidad reparacion">
-      <i class="fa fa-wrench fa-2x Reparacion" aria-hidden="true"></i>
-      <h2>Reparacion</h2>
-      <p>Reparamos todo tipo de movil y los liberamos.</p>
-    </div>
+            <div class="utilidad reparacion">
+                <i class="fa fa-wrench fa-2x Reparacion" aria-hidden="true"></i>
+                <h2>Reparacion</h2>
+                <p>Reparamos todo tipo de movil y los liberamos.</p>
+            </div>
 
-    <div class="utilidad comprar">
-      <i class="fa fa-shopping-cart fa-2x compras" aria-hidden="true"></i>
-      <h2>Compras Online</h2>
-      <p>No necesitas ir a la tienda compra desde aqui.</p>
-    </div>
-    <div class="utilidad ventas">
-      <i class="fa fa-comments fa-2x ventas" aria-hidden="true"></i>
-      <h2>Pos Ventas</h2>
-      <p>Te atenderemos a todas tus dudas con mucho gusto, no dudes de contar con nosotros.</p>
-    </div>
-  </section>
+            <div class="utilidad comprar">
+                <i class="fa fa-shopping-cart fa-2x compras" aria-hidden="true"></i>
+                <h2>Compras Online</h2>
+                <p>No necesitas ir a la tienda compra desde aqui.</p>
+            </div>
+            <div class="utilidad ventas">
+                <i class="fa fa-comments fa-2x ventas" aria-hidden="true"></i>
+                <h2>Pos Ventas</h2>
+                <p>Te atenderemos a todas tus dudas con mucho gusto, no dudes de contar con nosotros.</p>
+            </div>
+        </section>
 
-  <!--marcas-->
-  <section id="marcas">
+        <!--marcas-->
+        <section id="marcas">
 
-    <h3>Tambien trabajamos con otras marcas</h3>
-    <div class="logo">
-      <div class="icono 1">
-        <img src="fotos/Logo-Samsung.png" alt="Samsung">
-      </div>
-      <div class="icono 2">
-        <img src="fotos/SONY-LOGO.png" alt="Sony">
-      </div>
-      <div class="icono 3">
-        <img src="fotos/huawei-logo.png" alt="Huawei">
-      </div>
-      <div class="icono 4">
-        <img src="fotos/apple-logo1.png" alt="Apple">
-      </div>
-      <div class="icono 5">
-        <img src="fotos/lg-logo.png" alt="Lg">
-      </div>
-    </div>
-  </section>
+            <h3>Tambien trabajamos con otras marcas</h3>
+            <div class="logo">
+                <div class="icono 1">
+                    <img src="fotos/Logo-Samsung.png" alt="Samsung">
+                </div>
+                <div class="icono 2">
+                    <img src="fotos/SONY-LOGO.png" alt="Sony">
+                </div>
+                <div class="icono 3">
+                    <img src="fotos/huawei-logo.png" alt="Huawei">
+                </div>
+                <div class="icono 4">
+                    <img src="fotos/apple-logo1.png" alt="Apple">
+                </div>
+                <div class="icono 5">
+                    <img src="fotos/lg-logo.png" alt="Lg">
+                </div>
+            </div>
+        </section>
 
-  <section id="contacto">
-    <h3>Registrate</h3>
-    <div class="formulario">
-      <form name="contacto">
-        <fieldset>
-          <div class="nombre"><label>Nombre: <input type="text" name="nombre" value="" placeholder="Tu nombre" required size="20"></label>
-            <label>Primer Apellido: <input type="text" name="apellido" value="" placeholder="1º Apellido" required size="20"></label></div>
-          <div class="apellido"><label>Segundo Apellido: <input type="text" name="apellido" value="" placeholder="2º Apellido" required size="20"></label>
-            <label>Fecha Nacimiento: <input type="date" name="fecha" value="" required></label></div>
-          <div class="direccion"><label>Direccíon: <input type="text" name="direccion" value="" placeholder="Calle, numero, porton" size="30"></label>
-            <label>Codigo Postal: <input type="text" name=" postal" value="" placeholder="Ej: 38008" size="5"></label></div>
-          <div class="localidad"><label>Localidad:<input type="text" name="Localidad" value="" placeholder="Ej: Santa Cruz de tenerife" size="30"></label>
-            <label>Poblacion: <input type="text" name="poblacion" value="" placeholder="Ej: Santa Cruz de tenerife"size="30"required></label></div>
-          <div class="myh"><label>Sexo: <input type="radio" name="sexo" value="M">
-          Mujer<input type="radio" name="sexo" value="H">Hombre</label></div>
-          <div class="telefono"><label>Telefono Movil: <input type="tel" name="movil" value="" placeholder=" xxx-xxx-xxx" size="10"required></label>
-            <label>Email: <input type="email" name="email" value="" placeholder="usuario@email.com" size="30"required></label></div>
-          <div class="login"><label>Usuario: <input type="text" name="usuario" value="" required placeholder="Tu usuario"required></label>
-            <label>Contraseña: <input type="password" name="contraseña" value="" required></label></div>
-          <div class="suplogin"><label>Confirmar Contraseña: <input type="password" name="contaseña" value=""required></label></div>
-    </div>
-    <div class="enviar"><label><input type="submit"></label></div>
-    </fieldset>
-    </form>
-  </section>
-  <!--  </div>-->
-  <footer>
-    <a href="https://www.google.es/"><i class="fa fa-google" aria-hidden="true"></i></a>
-    <a href="https://es-es.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-    <a href="https://github.com/valle88/vagua"><i class="fa fa-github" aria-hidden="true"></i></a>
-    <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-  </footer>
+        <section id="contacto">
+            <h3>Registrate</h3>
+            <div class="formulario">
+                <form name="contacto">
+                    <fieldset>
+                        <div class="nombre"><label>Nombre: <input type="text" name="nombre" value="" placeholder="Tu nombre" required size="20"></label>
+                            <label>Primer Apellido: <input type="text" name="apellido" value="" placeholder="1º Apellido" required size="20"></label></div>
+                        <div class="apellido"><label>Segundo Apellido: <input type="text" name="apellido" value="" placeholder="2º Apellido" required size="20"></label>
+                            <label>Fecha Nacimiento: <input type="date" name="fecha" value="" required></label></div>
+                        <div class="direccion"><label>Direccíon: <input type="text" name="direccion" value="" placeholder="Calle, numero, porton" size="30"></label>
+                            <label>Codigo Postal: <input type="text" name=" postal" value="" placeholder="Ej: 38008" size="5"></label></div>
+                        <div class="localidad"><label>Localidad:<input type="text" name="Localidad" value="" placeholder="Ej: Santa Cruz de tenerife" size="30"></label>
+                            <label>Poblacion: <input type="text" name="poblacion" value="" placeholder="Ej: Santa Cruz de tenerife" size="30" required></label></div>
+                        <div class="myh"><label>Sexo: <input type="radio" name="sexo" value="M">
+                            Mujer<input type="radio" name="sexo" value="H">Hombre</label></div>
+                        <div class="telefono"><label>Telefono Movil: <input type="tel" name="movil" value="" placeholder=" xxx-xxx-xxx" size="10" required></label>
+                            <label>Email: <input type="email" name="email" value="" placeholder="usuario@email.com" size="30" required></label></div>
+                        <div class="login"><label>Usuario: <input type="text" name="usuario" value="" required placeholder="Tu usuario" required></label>
+                            <label>Contraseña: <input type="password" name="contraseña" value="" required></label></div>
+                        <div class="suplogin"><label>Confirmar Contraseña: <input type="password" name="contaseña" value="" required></label></div>
+                        <div class="enviar"><label><input type="submit"></label></div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <!--  </div>-->
+        <footer>
+            <a href="https://www.google.es/"><i class="fa fa-google" aria-hidden="true"></i></a>
+            <a href="https://es-es.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="https://github.com/valle88/vagua"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        </footer>
 
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.5.0/min/tiny-slider.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/menuspy@1.2.1/dist/menuspy.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.2.0/dist/owl.carousel.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.5.0/min/tiny-slider.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/menuspy@1.2.1/dist/menuspy.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.2.0/dist/owl.carousel.min.js"></script>
 
-  <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>-->
-  <script type="text/javascript" src="js/seguridad.js"></script>
-  <script type="text/javascript" src="js/index.js"></script>
-  <script type="text/javascript" src="js/jquery.cookiebar/jquery.cookiebar.js"></script>
-</body>
+        <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>-->
+        <script type="text/javascript" src="js/seguridad.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/jquery.cookiebar/jquery.cookiebar.js"></script>
+    </body>
 
 </html>

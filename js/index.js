@@ -1,13 +1,35 @@
-var login;
+var usuarioLogeado = false;
 
-
-function validacion(nombre, contrasena) {
-    var contrasenanumero = Number(contrasena);
-    if (nombre === 'valle' && contrasenanumero === 1234) {
-        estoylogueado = true;
+function actualizarWebLogin() {
+    if (usuarioLogeado) {
+        $('#contacto').hide();
+        $('#link-contacto').hide();
+        $('.registro').hide();
+        $('#logout-btn').show();
     } else {
-        estoylogueado = false;
+        $('#contacto').show();
+        $('#link-contacto').show();
+        $('.registro').show();
+        $('#logout-btn').hide();
     }
+}
+
+function logoutUsuario() {
+    usuarioLogeado = false;
+    actualizarWebLogin();
+}
+
+function validarFormularioLogin() {
+    var nombreUsuario = $('.nombre-login').val();
+    var password = $('.password-login').val();
+    if (nombreUsuario === 'valle' && password === '1234') {
+        usuarioLogeado = true;
+        $('#formulario-login')[0].reset();
+    } else {
+        usuarioLogeado = false;
+    }
+    actualizarWebLogin();
+    return false;
 }
 
 // carrusel//
@@ -46,60 +68,59 @@ function cambiarcolor(elementoSelecionado) {
     });
   });*/
 $(document).ready(function () {
+    actualizarWebLogin();
+    var slider = tns({
+        container: '.valle-slider',
+        controls: false,
+        nav: false,
+        autoplayButtonOutput: false,
+        autoplayTimeout: 2000,
+        mouseDrag: true,
+        slideBy: 'page',
+        autoplay: true
+    });
 
-  var slider = tns({
-    container: '.valle-slider',
-    controls: false,
-    nav: false,
-    autoplayButtonOutput: false,
-    autoplayTimeout: 2000,
-    mouseDrag: true,
-    slideBy: 'page',
-    autoplay: true
-  });
+    // $('#dorado-img').hide();
+    $('#negro-img').hide();
+    $('#gris-img').hide();
 
-  // $('#dorado-img').hide();
-  $('#negro-img').hide();
-  $('#gris-img').hide();
-
-  $('.selector-color i').click(function () {
-      cambiarcolor(this);
-  });
-  $.cookieBar({
-    message: 'Nosotros utilizamos cookies para ayudar',
-    acceptButton: true,
-    acceptText: 'yo acepto',
-    acceptFunction: null,
-    declineButton: false,
-    declineText: 'Disable Cookies',
-    declineFunction: null,
-    policyButton: true,
-    expireDays: 365,
-    policyText: 'Mas informacion',
-    policyURL: '/privacy-policy/',
-    renewOnVisit: false,
-    bottom: true,
-    fixed: true,
-    zindex: '',
+    $('.selector-color i').click(function () {
+        cambiarcolor(this);
+    });
+    $.cookieBar({
+        message: 'Nosotros utilizamos cookies para ayudar',
+        acceptButton: true,
+        acceptText: 'yo acepto',
+        acceptFunction: null,
+        declineButton: false,
+        declineText: 'Disable Cookies',
+        declineFunction: null,
+        policyButton: true,
+        expireDays: 365,
+        policyText: 'Mas informacion',
+        policyURL: '/privacy-policy/',
+        renewOnVisit: false,
+        bottom: true,
+        fixed: true,
+        zindex: '',
 
 
-  });
+    });
 });
 
 
-
-    // $("#dorado").click(function () {
-    //     cambiarcolor('dorado');
-    // });
-    // $("#negro").click(function () {
-    //     cambiarcolor('negro');
-    // });
-    // $("#rojo").click(function () {
-    //     cambiarcolor('rojo');
-    // });
+// $("#dorado").click(function () {
+//     cambiarcolor('dorado');
+// });
+// $("#negro").click(function () {
+//     cambiarcolor('negro');
+// });
+// $("#rojo").click(function () {
+//     cambiarcolor('rojo');
+// });
 
 var options = {
-  activeClass: 'active'
+    activeClass: 'active'
 }
 var elm = document.querySelector('.menu');
 var ms = new MenuSpy(elm, options);
