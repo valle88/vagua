@@ -65,8 +65,28 @@ $(document).ready(function () {
   $('.selector-color i').click(function () {
       cambiarcolor(this);
   });
+  $.cookieBar({
+    message: 'Nosotros utilizamos cookies para ayudar',
+    acceptButton: true,
+    acceptText: 'yo acepto',
+    acceptFunction: null,
+    declineButton: false,
+    declineText: 'Disable Cookies',
+    declineFunction: null,
+    policyButton: true,
+    expireDays: 365,
+    policyText: 'Mas informacion',
+    policyURL: '/privacy-policy/',
+    renewOnVisit: false,
+    bottom: true,
+    fixed: true,
+    zindex: '',
 
+
+  });
 });
+
+
 
     // $("#dorado").click(function () {
     //     cambiarcolor('dorado');

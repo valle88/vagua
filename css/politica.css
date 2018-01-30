@@ -1,0 +1,16 @@
+/*estructura pagina*/
+body{
+
+}
+h1{
+  color:rgba(#020813, 0.97);
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 64px;
+  text-align: center;
+}
+div{
+  height: 179px;
+  width: 861px;
+  justify-content: center;
+  align-items: center;
+}
