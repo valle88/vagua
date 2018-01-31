@@ -18,10 +18,10 @@ En esta pagina vamos a presentar enl ultimo modelo de telefonia movil.
 - trello: [https://trello.com/](https://trello.com/)
 - atom: [https://atom.io/](https://atom.io/)
   - plugins: aton beautify
-            - atom-live-server
-            - emmet
-            - markdown-preview
-            - teletype
+    - atom-live-server
+    - emmet
+    - markdown-preview
+    - teletype
 
 
 ## Fase 1: Boceto inicial de la pagina
@@ -47,9 +47,14 @@ En esta pagina vamos a presentar enl ultimo modelo de telefonia movil.
 - cookiebar: [https://www.primebox.co.uk/projects/jquery-cookiebar/] Esta es la libreria de las Cookies.
 
 ## estilo de fuente
-- shadows
-- josefin
-- confortaa
+|descripcion |enlace |observaciones|
+|--------|--------|--------|
+|shadows|https://fonts.googleapis.com/css?family=Shadows+Into+Light | nombre pagrina |
+|Josefin|https://fonts.googleapis.com/css?family=Josefin+Slab | menu |
+|conforta|https://fonts.googleapis.com/css?family=Comfortaa | contenido pagina |
+
+
+
 
 ## cosas que faltan por hacer
 - responsive
