@@ -17,6 +17,12 @@ En esta pagina vamos a presentar enl ultimo modelo de telefonia movil.
 - draw.io: [https://www.draw.io/](https://www.draw.io/)
 - trello: [https://trello.com/](https://trello.com/)
 - atom: [https://atom.io/](https://atom.io/)
+  - plugins: aton beautify
+            - atom-live-server
+            - emmet
+            - markdown-preview
+            - teletype
+
 
 ## Fase 1: Boceto inicial de la pagina
 
@@ -38,6 +44,7 @@ En esta pagina vamos a presentar enl ultimo modelo de telefonia movil.
 ## librerias usadas
 - tiny slider: [http://ganlanyuan.github.io/tiny-slider/tests/](https://ganlanyuan.github.io/timy-slider7tests7) Esta libreria esta usada para el primer slider.
 - menu spy: [https://leocs.me/menuspy](hhtps://leocs.me/menuspy) Esta libreria es la que utilize para el menu.
+- cookiebar: [https://www.primebox.co.uk/projects/jquery-cookiebar/] Esta es la libreria de las Cookies.
 
 ## estilo de fuente
 - shadows
