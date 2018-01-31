@@ -22,7 +22,7 @@ En esta pagina vamos a presentar enl ultimo modelo de telefonia movil.
     - emmet
     - markdown-preview
     - teletype
-
+- haroopad: [http://pad.haroopress.com/](http://pad.haroopress.com/)
 
 ## Fase 1: Boceto inicial de la pagina
 
@@ -49,9 +49,16 @@ En esta pagina vamos a presentar enl ultimo modelo de telefonia movil.
 ## estilo de fuente
 |descripcion |enlace |observaciones|
 |--------|--------|--------|
-|shadows|https://fonts.googleapis.com/css?family=Shadows+Into+Light | nombre pagrina |
-|Josefin|https://fonts.googleapis.com/css?family=Josefin+Slab | menu |
-|conforta|https://fonts.googleapis.com/css?family=Comfortaa | contenido pagina |
+|shadows|https://fonts.googleapis.com/css?family=Shadows+Into+Light | nombre págrina |
+|Josefin|https://fonts.googleapis.com/css?family=Josefin+Slab | menú |
+|conforta|https://fonts.googleapis.com/css?family=Comfortaa | contenido página |
+
+## SEO
+- En search console la página esta enviada y esta indexada.
+![search console](fotos/search-console.png)
+- En google analytic se ve el trafico de nuestra página.
+![google analytic](fotos/google-analityc.png)
+
 
 
 
