@@ -314,7 +314,7 @@ h3 {
     background-color: #27dec8;
 }
 
-.nombre, .apellido, .direccion, .localidad, .myh, .telefono, .login, .suplogin, .enviar {
+.nombre, .apellido, .direccion, .localidad, .myh, .telefono, .login, .suplogin,.enviar {
     justify-content: center;
     margin: 10px;
 }
