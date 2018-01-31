@@ -26,20 +26,20 @@ En esta pagina vamos a presentar enl ultimo modelo de telefonia movil.
 
 ## Fase 1: Boceto inicial de la pagina
 
-![boceto](fotos/boceto.png)
+![boceto](https://valle88.github.io/vagua/fotos/boceto.png)
 
 ## Fase 2: Boceto modificado de la pagina
 
-![boceto](fotos/boceto2.png)
+![boceto](https://valle88.github.io/vagua/fotos/boceto2.png)
 
 ## Fase 3: Boceto casi finalizado de la pagina
 
-![boceto](fotos/boceto3.png)
+![boceto](https://valle88.github.io/vagua/fotos/boceto3.png)
 
 ## Fase 4: Captura trello y pagina final
 
-![trello](fotos/trello.PNG)
-![boceto](fotos/captura.pagina.png)
+![trello](https://valle88.github.io/vagua/fotos/trello.PNG)
+![boceto](https://valle88.github.io/vagua/fotos/captura.pagina.png)
 
 ## librerias usadas
 - tiny slider: [http://ganlanyuan.github.io/tiny-slider/tests/](https://ganlanyuan.github.io/timy-slider7tests7) Esta libreria esta usada para el primer slider.
@@ -55,9 +55,9 @@ En esta pagina vamos a presentar enl ultimo modelo de telefonia movil.
 
 ## SEO
 - En search console la página esta enviada y esta indexada.
-![search console](fotos/search-console.png)
+![search console](https://valle88.github.io/vagua/fotos/search-console.png)
 - En google analytic se ve el trafico de nuestra página.
-![google analytic](fotos/google-analityc.png)
+![google analytic](https://valle88.github.io/vagua/fotos/google-analityc.png)
 
 
 
