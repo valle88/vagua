@@ -65,3 +65,4 @@ En esta pagina vamos a presentar enl ultimo modelo de telefonia movil.
 
 ## cosas que faltan por hacer
 - responsive
+- menching

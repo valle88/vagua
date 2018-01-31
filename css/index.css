@@ -68,11 +68,19 @@ header .cabecera {
 
 .registro {
     color: #df09a8;
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Josefin Slab';
     width: 380px;
     /*height: 40px;*/
     margin-top: 76px;
+
+}
+.sinborde {
+  border: 0;
+  width: 300px;
+}
+
+.nombre-login{
 
 }
 

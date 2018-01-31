@@ -14,3 +14,18 @@ div{
   justify-content: center;
   align-items: center;
 }
+table{
+  text-align: center;
+  justify-content: center;
+
+}
+th{
+  text-align: center;
+  width: 100px;
+  height: 200px;
+}
+
+h3{
+  color: #1b0342;
+  margin-top: 75px;
+}
